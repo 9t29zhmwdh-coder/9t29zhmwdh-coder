@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/9t29zhmwdh-coder/9t29zhmwdh-coder.github.io/main/RayStudio.png" alt="RayStudio" width="100"/>
+  <img src="RayStudio.png" alt="RayStudio" width="100"/>
 
   ## Hey, I'm Rafael
 
