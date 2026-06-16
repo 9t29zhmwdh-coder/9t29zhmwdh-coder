@@ -32,29 +32,69 @@
 
 ---
 
-## Featured Projects
+## Projects
 
-### Desktop Applications
-- **[LogLens](https://github.com/9t29zhmwdh-coder/LogLens)** — AI-powered log analysis & anomaly detection (Rust + Tauri)
-- **[CodeWhisper](https://github.com/9t29zhmwdh-coder/CodeWhisper)** — macOS AI code assistant, NSServices integration (Swift)
-- **[NetDashboard](https://github.com/9t29zhmwdh-coder/NetDashboard)** — Network & Mail toolkit for Windows (C# + WPF)
+### Rust + Tauri — Desktop Apps
 
-### Productivity & Automation
-- **[LifePlanner](https://github.com/9t29zhmwdh-coder/LifePlanner)** — Offline AI life planner — events, tasks, deadlines (Rust + Tauri)
-- **[GardenFlow](https://github.com/9t29zhmwdh-coder/GardenFlow)** — Modular home garden automation (Python + Docker)
-- **[SiliconMark](https://github.com/9t29zhmwdh-coder/SiliconMark)** — Apple Silicon LLM benchmark suite (Python)
+| Project | Description |
+|---|---|
+| **[LifePlanner](https://github.com/9t29zhmwdh-coder/LifePlanner)** | Offline AI life planner — events, tasks, goals |
+| **[LifeSort](https://github.com/9t29zhmwdh-coder/LifeSort)** | AI-powered file organizer — rules, duplicates, automation |
+| **[CleanFlow](https://github.com/9t29zhmwdh-coder/CleanFlow)** | Smart disk cleanup — temp files, caches, duplicates |
+| **[ClarityDesk](https://github.com/9t29zhmwdh-coder/ClarityDesk)** | Universal display interpreter — OCR + local AI |
+| **[DeviceHealth](https://github.com/9t29zhmwdh-coder/DeviceHealth)** | Cross-platform system health monitor |
+| **[MailPilot](https://github.com/9t29zhmwdh-coder/MailPilot)** | Offline-first email client with AI classification |
+| **[BugRadar](https://github.com/9t29zhmwdh-coder/BugRadar)** | Real-time log analysis & AI-driven incident detection |
 
-All projects: [@9t29zhmwdh-coder](https://github.com/9t29zhmwdh-coder?tab=repositories)
+### Rust — CLI & Backend
+
+| Project | Description |
+|---|---|
+| **[LogLens](https://github.com/9t29zhmwdh-coder/LogLens)** | AI log aggregator — clustering, anomaly detection, FTS |
+| **[StateForge](https://github.com/9t29zhmwdh-coder/StateForge)** | State machine analyzer — parse, visualize, generate |
+| **[agent-governance-console](https://github.com/9t29zhmwdh-coder/agent-governance-console)** | Governance & tracing for agentic workflows (Axum, OpenTelemetry) |
+| **[private-model-orchestrator](https://github.com/9t29zhmwdh-coder/private-model-orchestrator)** | Privacy-first foundation model orchestration for Apple device fleets |
+
+### Swift — macOS & iOS
+
+| Project | Description |
+|---|---|
+| **[SwiftAgent](https://github.com/9t29zhmwdh-coder/SwiftAgent)** | Native iOS AI chat interface — local model integration |
+| **[CodeWhisper](https://github.com/9t29zhmwdh-coder/CodeWhisper)** | macOS AI code assistant with NSServices integration |
+
+### C# + WPF — Windows Tools
+
+| Project | Description |
+|---|---|
+| **[NetSweep](https://github.com/9t29zhmwdh-coder/NetSweep)** | Network scanner & NAS file manager for Windows |
+| **[NetDashboard](https://github.com/9t29zhmwdh-coder/NetDashboard)** | Network & Mail monitoring dashboard for Windows |
+
+### Python
+
+| Project | Description |
+|---|---|
+| **[SiliconMark](https://github.com/9t29zhmwdh-coder/SiliconMark)** | Apple Silicon LLM benchmark suite — Token/s, RAM, ANE |
+| **[NetScanX](https://github.com/9t29zhmwdh-coder/NetScanX)** | Cross-platform network discovery & diagnostics CLI |
+| **[GardenFlow](https://github.com/9t29zhmwdh-coder/GardenFlow)** | Modular home garden automation (MQTT, FastAPI, Docker) |
+| **[HomePortal](https://github.com/9t29zhmwdh-coder/HomePortal)** | Self-hosted home services portal (FastAPI, Docker) |
+
+### Infrastructure & PowerShell
+
+| Project | Description |
+|---|---|
+| **[M365-AdminTool](https://github.com/9t29zhmwdh-coder/M365-AdminTool)** | PowerShell toolkit for Microsoft 365 administration |
+| **[JellyFin-MediaStack](https://github.com/9t29zhmwdh-coder/JellyFin-MediaStack)** | Self-hosted media server stack (Docker Compose) |
 
 ---
 
 ## Focus Areas
 
-- Rust — Tauri desktop apps, async backends
-- Python — automation, tools, data processing
+- Rust — Tauri desktop apps, async backends, CLI tools
+- Python — automation, benchmarks, data processing
 - C# — Windows desktop, enterprise tools
 - Local AI — Ollama, llama.cpp, offline-first
 - macOS/iOS — Swift development
+- Microsoft / Azure — M365, WPF, enterprise integrations
 
 ---
 
