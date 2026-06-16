@@ -52,7 +52,7 @@
 |---|---|
 | **[LogLens](https://github.com/9t29zhmwdh-coder/LogLens)** | AI log aggregator — clustering, anomaly detection, FTS |
 | **[StateForge](https://github.com/9t29zhmwdh-coder/StateForge)** | State machine analyzer — parse, visualize, generate |
-| **[agent-governance-console](https://github.com/9t29zhmwdh-coder/agent-governance-console)** | Governance & tracing for agentic workflows (Axum, OpenTelemetry) |
+| **[agent-governance-console](https://github.com/9t29zhmwdh-coder/agent-governance-console)** | AI agent governance, tracing & audit — Axum, OpenTelemetry, Azure Monitor / Sentinel |
 | **[private-model-orchestrator](https://github.com/9t29zhmwdh-coder/private-model-orchestrator)** | Privacy-first foundation model orchestration for Apple device fleets |
 
 ### Swift — macOS & iOS
@@ -66,8 +66,8 @@
 
 | Project | Description |
 |---|---|
-| **[NetSweep](https://github.com/9t29zhmwdh-coder/NetSweep)** | Network scanner & NAS file manager for Windows |
-| **[NetDashboard](https://github.com/9t29zhmwdh-coder/NetDashboard)** | Network & Mail monitoring dashboard for Windows |
+| **[NetSweep](https://github.com/9t29zhmwdh-coder/NetSweep)** | Network storage audit & cleanup — NAS, SharePoint, DFS, Windows |
+| **[NetDashboard](https://github.com/9t29zhmwdh-coder/NetDashboard)** | Network & mail diagnostics — DNS, M365/Exchange Online, Windows |
 
 ### Python
 
