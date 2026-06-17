@@ -98,6 +98,30 @@
 
 ---
 
+## AI & LLM Lab
+
+Running a local AI lab on Apple Silicon (laptop and desktop), testing open-source models and
+comparing them against cloud APIs, integrated directly into my own tools.
+
+**Local inference:**
+- Ollama as the daily model server: Nous Hermes, Llama 3, Qwen, Mistral and others
+- Testing models from 4B to 30B parameters across reasoning, tool use, structured output and coding tasks
+- SiliconMark (my own benchmark tool) to measure Token/s, RAM usage and ANE activity per model and runtime
+
+**Agent workflows:**
+- Nous Hermes as the primary local agent model: ReAct loops, tool calling, multi-step pipelines
+- Building agent workflows that run fully offline, no data leaves the machine
+
+**Integration & testing:**
+- All my tools with AI features (LifePlanner, LogLens, MailPilot, CodeWhisper and others) support
+  both local models via Ollama and cloud APIs, tested against each other to see where local
+  inference holds up and where it falls short
+- Claude API used as the cloud reference point in agent and workflow benchmarks
+- The goal: understand the real capability gap between a 7B local model and a cloud API
+  for specific tasks, then design tools that work well at both ends
+
+---
+
 ## Background
 
 **20+ years** in logistics & supply chain management  
