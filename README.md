@@ -9,6 +9,8 @@
   Building tools for practical problems. Everything runs local. Everything offline-first.
 </div>
 
+> 🇩🇪 [Deutsche Version](README.de.md)
+
 ---
 
 ## What I Work With
