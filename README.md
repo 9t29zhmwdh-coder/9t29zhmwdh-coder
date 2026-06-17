@@ -19,6 +19,7 @@
 ![Azure](https://img.shields.io/badge/Azure-Monitor%20%7C%20Sentinel-blue?logo=microsoftazure)
 ![Platform](https://img.shields.io/badge/Apple%20Silicon-macOS-lightgrey?logo=apple)
 ![Claude](https://img.shields.io/badge/Claude-API-blue?logo=anthropic)
+![GitHub Copilot](https://img.shields.io/badge/GitHub%20Copilot-blue?logo=github)
 
 > 🇩🇪 [Deutsche Version](README.de.md)
 
@@ -107,7 +108,7 @@
 - C#: Windows desktop and enterprise tools
 - Local AI: Ollama, llama.cpp, offline-first
 - macOS/iOS: Swift development
-- Microsoft / Azure: M365, WPF and enterprise integrations
+- Microsoft / Azure: M365, WPF, GitHub Copilot and enterprise integrations
 
 ---
 
