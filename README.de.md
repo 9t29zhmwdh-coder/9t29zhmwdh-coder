@@ -19,6 +19,7 @@
 ![Azure](https://img.shields.io/badge/Azure-Monitor%20%7C%20Sentinel-blue?logo=microsoftazure)
 ![Platform](https://img.shields.io/badge/Apple%20Silicon-macOS-lightgrey?logo=apple)
 ![Claude](https://img.shields.io/badge/Claude-API-blue?logo=anthropic)
+![GitHub Copilot](https://img.shields.io/badge/GitHub%20Copilot-blue?logo=github)
 
 > 🇬🇧 [English Version](README.md)
 
@@ -130,7 +131,7 @@ Ich betreibe ein lokales KI-Labor auf Apple Silicon (Laptop und Desktop) und tes
 - C#: Windows Desktop und Enterprise-Tools
 - Lokale KI: Ollama, offline-first
 - macOS/iOS: Swift-Entwicklung
-- Microsoft / Azure: M365, WPF und Enterprise-Integrationen
+- Microsoft / Azure: M365, WPF, GitHub Copilot und Enterprise-Integrationen
 
 ---
 
