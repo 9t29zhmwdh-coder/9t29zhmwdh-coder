@@ -18,6 +18,7 @@
 ![Ollama](https://img.shields.io/badge/Ollama-local%20AI-lightgrey?logo=ollama)
 ![Azure](https://img.shields.io/badge/Azure-Monitor%20%7C%20Sentinel-blue?logo=microsoftazure)
 ![Platform](https://img.shields.io/badge/Apple%20Silicon-macOS-lightgrey?logo=apple)
+![Claude](https://img.shields.io/badge/Claude-API-blue?logo=anthropic)
 
 > 🇩🇪 [Deutsche Version](README.de.md)
 
