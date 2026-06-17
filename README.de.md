@@ -15,11 +15,15 @@
 ![C%23](https://img.shields.io/badge/C%23-orange?logo=dotnet)
 ![Tauri](https://img.shields.io/badge/Tauri-blue?logo=tauri)
 ![WPF](https://img.shields.io/badge/WPF-.NET%208-blue?logo=windows)
+![Visual Studio](https://img.shields.io/badge/Visual%20Studio-2022-blue?logo=visualstudio)
+![VS Code](https://img.shields.io/badge/VS%20Code-blue?logo=visualstudiocode)
 ![Ollama](https://img.shields.io/badge/Ollama-local%20AI-lightgrey?logo=ollama)
 ![Azure](https://img.shields.io/badge/Azure-Monitor%20%7C%20Sentinel-blue?logo=microsoftazure)
-![Platform](https://img.shields.io/badge/Apple%20Silicon-macOS-lightgrey?logo=apple)
+![Apple Silicon](https://img.shields.io/badge/Apple%20Silicon-macOS-lightgrey?logo=apple)
+![Surface](https://img.shields.io/badge/Surface%20Laptop%207-Snapdragon%20X%20Elite-lightgrey?logo=windows)
 ![Claude](https://img.shields.io/badge/Claude-API-blue?logo=anthropic)
 ![GitHub Copilot](https://img.shields.io/badge/GitHub%20Copilot-blue?logo=github)
+![Windows Copilot](https://img.shields.io/badge/Windows%20Copilot-blue?logo=windows)
 
 > 🇬🇧 [English Version](README.md)
 
@@ -31,7 +35,7 @@
 - **Netzwerk:** Ubiquiti UniFi (Cloud Gateway, UDM Pro, WiFi 6/7)
 - **Automatisierung:** Home Assistant, Raspberry Pi, Zigbee, Matter, Z-Wave
 - **Storage:** Synology/UGREEN NAS, Microsoft 365, Exchange Online
-- **Geräte:** macOS (Apple Silicon), Surface Laptop, Linux-Server
+- **Geräte:** Apple Silicon (macOS), Surface Laptop 7 (Snapdragon X Elite, Windows 11), Linux-Server
 
 ### Entwicklungs-Stack
 
@@ -39,10 +43,23 @@
 |---|---|
 | **Desktop-Apps** | Rust + Tauri, C# + WPF (.NET 8), Swift (macOS/iOS) |
 | **Web/Frontend** | TypeScript, React, Tailwind CSS |
-| **Backend** | Rust async (Tokio), Python, PowerShell |
+| **Backend** | Rust async (Tokio), Python, PowerShell 7 |
 | **Daten** | SQLite mit FTS5, PostgreSQL |
-| **KI** | Ollama (lokal), Qwen 3.5, offline-first Modelle |
+| **KI** | Ollama (lokal), Qwen 3.5, GitHub Copilot, Windows Copilot |
+| **IDE / Tools** | Visual Studio 2022, Visual Studio Code, Xcode, Windows Terminal |
 | **DevOps** | Git/GitHub, Docker, GitHub Actions |
+
+### Microsoft Ecosystem
+
+Täglich im Einsatz über den gesamten Microsoft-Stack auf einem Surface Laptop 7 mit Snapdragon X Elite:
+
+| Bereich | Tools & Dienste |
+|---|---|
+| **Hardware** | Surface Laptop 7, Snapdragon X Elite, Windows 11 on ARM |
+| **Entwicklung** | Visual Studio 2022, Visual Studio Code, Windows Terminal, PowerShell 7 |
+| **KI-Begleiter** | GitHub Copilot (IDE-Integration), Windows Copilot (nativ auf ARM) |
+| **Enterprise** | Microsoft 365, Exchange Online, Entra ID, Microsoft Teams |
+| **Cloud** | Azure Monitor, Microsoft Sentinel, Microsoft Graph API |
 
 ---
 
@@ -103,7 +120,7 @@
 
 ## KI & LLM Lab
 
-Ich betreibe ein lokales KI-Labor auf Apple Silicon (Laptop und Desktop) und teste Open-Source-Modelle im Vergleich zu Cloud-APIs, direkt integriert in meine eigenen Tools.
+Lokales KI-Labor auf Apple Silicon (Laptop und Desktop): Open-Source-Modelle werden getestet und direkt mit Cloud-APIs verglichen, integriert in meine eigenen Tools.
 
 **Lokale Inferenz via Ollama:**
 - Täglicher Treiber: Qwen 3.5 als primäres Modell und persönliche Vergleichsbasis
@@ -114,7 +131,11 @@ Ich betreibe ein lokales KI-Labor auf Apple Silicon (Laptop und Desktop) und tes
 - Nous Hermes läuft als 24/7 lokaler Agent für Langzeit-Workflow- und Stabilitätstests
 - Übernimmt mehrstufige Pipelines, Tool-Calling und unbeaufsichtigte Aufgaben vollständig auf dem Gerät
 - qwen3-coder wird als lokaler Coding-Agent im Vergleich zu Cloud-basierten Coding-Tools getestet
-- Cloud-Gegenstück: Claude API für Agent-Benchmarks und Produktions-Workflows
+- Claude API als Cloud-Referenzpunkt für Agent-Benchmarks und Produktions-Workflows
+- GitHub Copilot in Visual Studio und VS Code für Enterprise-Entwicklung: .NET, WPF,
+  PowerShell-Skripting, M365-Automatisierung und Code-Reviews
+- Windows Copilot auf dem Surface Laptop 7 (Snapdragon X Elite, ARM-nativ): täglicher Begleiter
+  für Entwürfe, Recherche und praxisnahe Tests von Microsoft-KI-Features auf Windows on ARM
 
 **Integration & Testing:**
 - Alle meine Tools mit KI-Funktionen (LifePlanner, LogLens, MailPilot, CodeWhisper u.a.) unterstützen
@@ -128,10 +149,11 @@ Ich betreibe ein lokales KI-Labor auf Apple Silicon (Laptop und Desktop) und tes
 
 - Rust: Tauri Desktop-Apps, async Backends, CLI-Tools
 - Python: Automatisierung, Benchmarks, Datenverarbeitung
-- C#: Windows Desktop und Enterprise-Tools
-- Lokale KI: Ollama, offline-first
-- macOS/iOS: Swift-Entwicklung
-- Microsoft / Azure: M365, WPF, GitHub Copilot und Enterprise-Integrationen
+- C#: Windows Desktop und Enterprise-Tools mit Visual Studio 2022
+- Lokale KI: Ollama, Qwen 3.5, offline-first
+- macOS/iOS: Swift-Entwicklung, Xcode
+- Microsoft / Azure: M365, Exchange Online, Entra ID, Azure Monitor, WPF, Visual Studio und Enterprise-Integrationen
+- Windows on ARM: Surface Laptop 7 mit Snapdragon X Elite als primäre Windows-Entwicklungsmaschine
 
 ---
 
