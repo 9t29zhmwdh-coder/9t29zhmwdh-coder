@@ -9,6 +9,16 @@
   Building tools for practical problems. Everything runs local. Everything offline-first.
 </div>
 
+![Rust](https://img.shields.io/badge/Rust-orange?logo=rust)
+![Swift](https://img.shields.io/badge/Swift-orange?logo=swift)
+![Python](https://img.shields.io/badge/Python-orange?logo=python)
+![C%23](https://img.shields.io/badge/C%23-orange?logo=dotnet)
+![Tauri](https://img.shields.io/badge/Tauri-blue?logo=tauri)
+![WPF](https://img.shields.io/badge/WPF-.NET%208-blue?logo=windows)
+![Ollama](https://img.shields.io/badge/Ollama-local%20AI-lightgrey?logo=ollama)
+![Azure](https://img.shields.io/badge/Azure-Monitor%20%7C%20Sentinel-blue?logo=microsoftazure)
+![Platform](https://img.shields.io/badge/Apple%20Silicon-macOS-lightgrey?logo=apple)
+
 > 🇩🇪 [Deutsche Version](README.de.md)
 
 ---
