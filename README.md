@@ -15,11 +15,15 @@
 ![C%23](https://img.shields.io/badge/C%23-orange?logo=dotnet)
 ![Tauri](https://img.shields.io/badge/Tauri-blue?logo=tauri)
 ![WPF](https://img.shields.io/badge/WPF-.NET%208-blue?logo=windows)
+![Visual Studio](https://img.shields.io/badge/Visual%20Studio-2022-blue?logo=visualstudio)
+![VS Code](https://img.shields.io/badge/VS%20Code-blue?logo=visualstudiocode)
 ![Ollama](https://img.shields.io/badge/Ollama-local%20AI-lightgrey?logo=ollama)
 ![Azure](https://img.shields.io/badge/Azure-Monitor%20%7C%20Sentinel-blue?logo=microsoftazure)
-![Platform](https://img.shields.io/badge/Apple%20Silicon-macOS-lightgrey?logo=apple)
+![Apple Silicon](https://img.shields.io/badge/Apple%20Silicon-macOS-lightgrey?logo=apple)
+![Surface](https://img.shields.io/badge/Surface%20Laptop%207-Snapdragon%20X%20Elite-lightgrey?logo=windows)
 ![Claude](https://img.shields.io/badge/Claude-API-blue?logo=anthropic)
 ![GitHub Copilot](https://img.shields.io/badge/GitHub%20Copilot-blue?logo=github)
+![Windows Copilot](https://img.shields.io/badge/Windows%20Copilot-blue?logo=windows)
 
 > 🇩🇪 [Deutsche Version](README.de.md)
 
@@ -31,7 +35,7 @@
 - **Network:** Ubiquiti UniFi (Cloud Gateway, UDM Pro, WiFi 6/7)
 - **Automation:** Home Assistant, Raspberry Pi, Zigbee, Matter, Z-Wave
 - **Storage:** Synology/UGREEN NAS, Microsoft 365, Exchange Online
-- **Devices:** macOS (M-series), Surface Laptop, Linux servers
+- **Devices:** Apple Silicon (macOS), Surface Laptop 7 (Snapdragon X Elite, Windows 11), Linux servers
 
 ### Development Stack
 
@@ -39,10 +43,23 @@
 |---|---|
 | **Desktop Apps** | Rust + Tauri, C# + WPF (.NET 8), Swift (macOS/iOS) |
 | **Web/Frontend** | TypeScript, React, Tailwind CSS |
-| **Backend** | Rust async (Tokio), Python, PowerShell |
+| **Backend** | Rust async (Tokio), Python, PowerShell 7 |
 | **Data** | SQLite with FTS5, PostgreSQL |
-| **AI** | Ollama (local), llama.cpp, offline-first models |
+| **AI** | Ollama (local), Qwen 3.5, GitHub Copilot, Windows Copilot |
+| **IDE / Tools** | Visual Studio 2022, Visual Studio Code, Xcode, Windows Terminal |
 | **DevOps** | Git/GitHub, Docker, GitHub Actions |
+
+### Microsoft Ecosystem
+
+Working daily across the full Microsoft stack on a Surface Laptop 7 with Snapdragon X Elite:
+
+| Area | Tools & Services |
+|---|---|
+| **Hardware** | Surface Laptop 7, Snapdragon X Elite, Windows 11 on ARM |
+| **Development** | Visual Studio 2022, Visual Studio Code, Windows Terminal, PowerShell 7 |
+| **AI Companions** | GitHub Copilot (IDE integration), Windows Copilot (native ARM) |
+| **Enterprise** | Microsoft 365, Exchange Online, Entra ID, Microsoft Teams |
+| **Cloud** | Azure Monitor, Microsoft Sentinel, Microsoft Graph API |
 
 ---
 
@@ -101,17 +118,6 @@
 
 ---
 
-## Focus Areas
-
-- Rust: Tauri desktop apps, async backends, CLI tools
-- Python: automation, benchmarks, data processing
-- C#: Windows desktop and enterprise tools
-- Local AI: Ollama, llama.cpp, offline-first
-- macOS/iOS: Swift development
-- Microsoft / Azure: M365, WPF, GitHub Copilot and enterprise integrations
-
----
-
 ## AI & LLM Lab
 
 Running a local AI lab on Apple Silicon (laptop and desktop), testing open-source models and
@@ -126,13 +132,29 @@ comparing them against cloud APIs, integrated directly into my own tools.
 - Nous Hermes running as a 24/7 local agent for long-term workflow and reliability tests
 - Handles multi-step pipelines, tool calling and unattended tasks entirely on-device
 - qwen3-coder tested as a local coding agent against cloud-based coding tools
-- Cloud counterpart: Claude API for agent benchmark comparison and production workflows
+- Claude API used as the cloud reference point in agent and workflow benchmarks
+- GitHub Copilot integrated in Visual Studio and VS Code for enterprise development: .NET, WPF,
+  PowerShell scripting, M365 automation and code reviews
+- Windows Copilot on Surface Laptop 7 (Snapdragon X Elite, ARM-native): daily companion for
+  drafting, research and hands-on testing of Microsoft AI features on Windows on ARM
 
 **Integration & testing:**
 - All my tools with AI features (LifePlanner, LogLens, MailPilot, CodeWhisper and others) support
   both local Ollama models and cloud APIs
 - The goal: find where a well-tuned local model is good enough and where cloud capability
   actually justifies the tradeoff
+
+---
+
+## Focus Areas
+
+- Rust: Tauri desktop apps, async backends, CLI tools
+- Python: automation, benchmarks, data processing
+- C#: Windows desktop and enterprise tools with Visual Studio 2022
+- Local AI: Ollama, Qwen 3.5, offline-first
+- macOS/iOS: Swift development, Xcode
+- Microsoft / Azure: M365, Exchange Online, Entra ID, Azure Monitor, WPF, Visual Studio and enterprise integrations
+- Windows on ARM: Surface Laptop 7 with Snapdragon X Elite as the primary Windows development machine
 
 ---
 
