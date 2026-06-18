@@ -108,6 +108,7 @@ Täglich im Einsatz über den gesamten Microsoft-Stack auf einem Surface Laptop 
 | **[NetScanX](https://github.com/9t29zhmwdh-coder/NetScanX)** | Plattformübergreifende Netzwerk-Discovery und Diagnose-CLI |
 | **[GardenFlow](https://github.com/9t29zhmwdh-coder/GardenFlow)** | Modulare Heimgarten-Automatisierung (MQTT, FastAPI, Docker) |
 | **[HomePortal](https://github.com/9t29zhmwdh-coder/HomePortal)** | Self-hosted Heimportal (FastAPI, Docker) |
+| **[azure-cost-forecasting-engine](https://github.com/9t29zhmwdh-coder/azure-cost-forecasting-engine)** | Azure Kostenanalyse, Prognose und Optimierungsempfehlungen über die Consumption API |
 
 ### Infrastruktur & Security
 

@@ -108,6 +108,7 @@ Working daily across the full Microsoft stack on a Surface Laptop 7 with Snapdra
 | **[NetScanX](https://github.com/9t29zhmwdh-coder/NetScanX)** | Cross-platform network discovery & diagnostics CLI |
 | **[GardenFlow](https://github.com/9t29zhmwdh-coder/GardenFlow)** | Modular home garden automation (MQTT, FastAPI, Docker) |
 | **[HomePortal](https://github.com/9t29zhmwdh-coder/HomePortal)** | Self-hosted home services portal (FastAPI, Docker) |
+| **[azure-cost-forecasting-engine](https://github.com/9t29zhmwdh-coder/azure-cost-forecasting-engine)** | Azure cost analysis, forecasting and optimization recommendations via Consumption API |
 
 ### Infrastructure & Security
 
