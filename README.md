@@ -114,7 +114,6 @@ Working daily across the full Microsoft stack on a Surface Laptop 7 with Snapdra
 | Project | Description |
 |---|---|
 | **[M365-AdminTool](https://github.com/9t29zhmwdh-coder/M365-AdminTool)** | PowerShell toolkit for Microsoft 365 administration |
-| **[JellyFin-MediaStack](https://github.com/9t29zhmwdh-coder/JellyFin-MediaStack)** | Self-hosted media server stack (Docker Compose) |
 
 ---
 
