@@ -109,11 +109,12 @@ Working daily across the full Microsoft stack on a Surface Laptop 7 with Snapdra
 | **[GardenFlow](https://github.com/9t29zhmwdh-coder/GardenFlow)** | Modular home garden automation (MQTT, FastAPI, Docker) |
 | **[HomePortal](https://github.com/9t29zhmwdh-coder/HomePortal)** | Self-hosted home services portal (FastAPI, Docker) |
 
-### Infrastructure & PowerShell
+### Infrastructure & Security
 
 | Project | Description |
 |---|---|
 | **[M365-AdminTool](https://github.com/9t29zhmwdh-coder/M365-AdminTool)** | PowerShell toolkit for Microsoft 365 administration |
+| **[entra-least-privilege-analyzer](https://github.com/9t29zhmwdh-coder/entra-least-privilege-analyzer)** | Read-only Rust CLI for Entra ID privilege analysis, PIM gap detection and role overlap reporting |
 
 ---
 
