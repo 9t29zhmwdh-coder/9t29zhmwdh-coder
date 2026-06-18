@@ -115,6 +115,7 @@ Working daily across the full Microsoft stack on a Surface Laptop 7 with Snapdra
 |---|---|
 | **[M365-AdminTool](https://github.com/9t29zhmwdh-coder/M365-AdminTool)** | PowerShell toolkit for Microsoft 365 administration |
 | **[entra-least-privilege-analyzer](https://github.com/9t29zhmwdh-coder/entra-least-privilege-analyzer)** | Read-only Rust CLI for Entra ID privilege analysis, PIM gap detection and role overlap reporting |
+| **[azure-policy-drift-detector](https://github.com/9t29zhmwdh-coder/azure-policy-drift-detector)** | Read-only Rust CLI to detect Azure Policy drift, prioritize non-compliant resources and generate remediation reports |
 
 ---
 
