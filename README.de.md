@@ -115,6 +115,7 @@ Täglich im Einsatz über den gesamten Microsoft-Stack auf einem Surface Laptop 
 |---|---|
 | **[M365-AdminTool](https://github.com/9t29zhmwdh-coder/M365-AdminTool)** | PowerShell-Toolkit für Microsoft 365 Administration |
 | **[entra-least-privilege-analyzer](https://github.com/9t29zhmwdh-coder/entra-least-privilege-analyzer)** | Read-only Rust CLI zur Entra ID Berechtigungsanalyse, PIM-Lückenerkennung und Rollen-Overlap-Auswertung |
+| **[azure-policy-drift-detector](https://github.com/9t29zhmwdh-coder/azure-policy-drift-detector)** | Read-only Rust CLI zur Erkennung von Azure Policy Drift, Priorisierung nicht-konformer Ressourcen und Erstellung von Behebungsberichten |
 
 ---
 
