@@ -114,7 +114,6 @@ Täglich im Einsatz über den gesamten Microsoft-Stack auf einem Surface Laptop 
 | Projekt | Beschreibung |
 |---|---|
 | **[M365-AdminTool](https://github.com/9t29zhmwdh-coder/M365-AdminTool)** | PowerShell-Toolkit für Microsoft 365 Administration |
-| **[JellyFin-MediaStack](https://github.com/9t29zhmwdh-coder/JellyFin-MediaStack)** | Self-hosted Medienserver-Stack (Docker Compose) |
 
 ---
 
