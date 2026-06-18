@@ -109,11 +109,12 @@ Täglich im Einsatz über den gesamten Microsoft-Stack auf einem Surface Laptop 
 | **[GardenFlow](https://github.com/9t29zhmwdh-coder/GardenFlow)** | Modulare Heimgarten-Automatisierung (MQTT, FastAPI, Docker) |
 | **[HomePortal](https://github.com/9t29zhmwdh-coder/HomePortal)** | Self-hosted Heimportal (FastAPI, Docker) |
 
-### Infrastruktur & PowerShell
+### Infrastruktur & Security
 
 | Projekt | Beschreibung |
 |---|---|
 | **[M365-AdminTool](https://github.com/9t29zhmwdh-coder/M365-AdminTool)** | PowerShell-Toolkit für Microsoft 365 Administration |
+| **[entra-least-privilege-analyzer](https://github.com/9t29zhmwdh-coder/entra-least-privilege-analyzer)** | Read-only Rust CLI zur Entra ID Berechtigungsanalyse, PIM-Lückenerkennung und Rollen-Overlap-Auswertung |
 
 ---
 
