@@ -6,7 +6,7 @@
   **ICT Infrastructure Engineer · Developer Tools Creator · Open Source**
 
   Workplace Engineer @ [novosys.ch](https://www.novosys.ch)  
-  Ich baue Werkzeuge für praktische Probleme. Alles läuft lokal. Alles offline-first.
+  Ich baue Tools für praktische Probleme. Alles läuft lokal. Alles offline-first.
 </div>
 
 ![Rust](https://img.shields.io/badge/Rust-CE422B?logo=rust&logoColor=white) ![Swift](https://img.shields.io/badge/Swift-F05138?logo=swift&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) ![C#](https://img.shields.io/badge/C%23-239120?logo=dotnet&logoColor=white) ![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?logo=powershell&logoColor=white) ![Tauri](https://img.shields.io/badge/Tauri-24C8D8?logo=tauri&logoColor=white) ![WPF](https://img.shields.io/badge/WPF-.NET_8-5391FE?logo=windows&logoColor=white) ![Visual Studio](https://img.shields.io/badge/Visual_Studio-2022-5C2D91?logo=visualstudio&logoColor=white) ![VS Code](https://img.shields.io/badge/VS_Code-blue?logo=visualstudiocode&logoColor=white) ![Xcode](https://img.shields.io/badge/Xcode-147EFB?logo=xcode&logoColor=white) ![Azure Monitor](https://img.shields.io/badge/Azure-Monitor-0078d4?logo=microsoftazure&logoColor=white) ![Microsoft Sentinel](https://img.shields.io/badge/Microsoft-Sentinel-0078d4?logo=microsoftazure&logoColor=white) ![Entra ID](https://img.shields.io/badge/Microsoft-Entra_ID-0078d4?logo=microsoftazure&logoColor=white) ![M365](https://img.shields.io/badge/Microsoft-M365-0078d4?logo=microsoft&logoColor=white) ![Apple Silicon](https://img.shields.io/badge/Apple-Silicon-000000?logo=apple&logoColor=white) ![AI | Claude Code](https://img.shields.io/badge/AI-Claude_Code-black?logo=anthropic&logoColor=white) ![AI | Copilot](https://img.shields.io/badge/AI-Copilot-black?logo=github&logoColor=white) ![AI | Windows Copilot](https://img.shields.io/badge/AI-Windows_Copilot-black?logo=windows&logoColor=white) ![AI | Ollama](https://img.shields.io/badge/AI-Ollama-black?logo=ollama&logoColor=white)
@@ -56,28 +56,28 @@ Täglich im Einsatz über den gesamten Microsoft-Stack auf einem Surface Laptop 
 | Projekt | Beschreibung |
 |---|---|
 | **[LifePlanner](https://github.com/9t29zhmwdh-coder/LifePlanner)** | Offline KI-Lebensplaner: Termine, Aufgaben und Ziele |
-| **[LifeSort](https://github.com/9t29zhmwdh-coder/LifeSort)** | KI-Dateiorganizer: Regeln, Duplikate, Automatisierung |
-| **[CleanFlow](https://github.com/9t29zhmwdh-coder/CleanFlow)** | Clevere Datenträgerbereinigung: Temp-Dateien, Caches, Duplikate |
+| **[LifeSort](https://github.com/9t29zhmwdh-coder/LifeSort)** | AI-File-Organizer: Regeln, Duplikate, Automatisierung |
+| **[CleanFlow](https://github.com/9t29zhmwdh-coder/CleanFlow)** | Smart Disk Cleanup: Temp-Dateien, Caches, Duplikate |
 | **[ClarityDesk](https://github.com/9t29zhmwdh-coder/ClarityDesk)** | Universeller Display-Interpreter: OCR + lokale KI |
-| **[DeviceHealth](https://github.com/9t29zhmwdh-coder/DeviceHealth)** | Plattformübergreifender System-Gesundheitsmonitor |
+| **[DeviceHealth](https://github.com/9t29zhmwdh-coder/DeviceHealth)** | Cross-platform System-Health-Monitor |
 | **[MailPilot](https://github.com/9t29zhmwdh-coder/MailPilot)** | Offline-E-Mail-Client mit KI-Klassifizierung |
-| **[BugRadar](https://github.com/9t29zhmwdh-coder/BugRadar)** | Echtzeit-Log-Analyse und KI-gestützte Incident-Erkennung |
+| **[BugRadar](https://github.com/9t29zhmwdh-coder/BugRadar)** | Echtzeit-Log-Analyse und AI-gestützte Incident-Erkennung |
 
 ### Rust CLI & Backend
 
 | Projekt | Beschreibung |
 |---|---|
-| **[LogLens](https://github.com/9t29zhmwdh-coder/LogLens)** | KI-Log-Aggregator: Clustering, Anomalie-Erkennung, Volltextsuche |
+| **[LogLens](https://github.com/9t29zhmwdh-coder/LogLens)** | AI-Log-Aggregator: Clustering, Anomalie-Erkennung, Volltextsuche |
 | **[StateForge](https://github.com/9t29zhmwdh-coder/StateForge)** | State-Machine-Analyzer: parsen, visualisieren, Code generieren |
-| **[agent-governance-console](https://github.com/9t29zhmwdh-coder/agent-governance-console)** | KI-Agent-Governance, Tracing & Audit: Axum, OpenTelemetry, Azure Monitor / Sentinel |
-| **[private-model-orchestrator](https://github.com/9t29zhmwdh-coder/private-model-orchestrator)** | Privacy-first Foundation-Model-Orchestrierung für Apple-Geräteflotten |
+| **[agent-governance-console](https://github.com/9t29zhmwdh-coder/agent-governance-console)** | AI-Agent-Governance, Tracing & Audit: Axum, OpenTelemetry, Azure Monitor / Sentinel |
+| **[private-model-orchestrator](https://github.com/9t29zhmwdh-coder/private-model-orchestrator)** | Privacy-first Foundation-Model-Orchestration für Apple-Geräteflotten |
 
 ### Swift für macOS & iOS
 
 | Projekt | Beschreibung |
 |---|---|
-| **[SwiftAgent](https://github.com/9t29zhmwdh-coder/SwiftAgent)** | Natives iOS KI-Chat-Interface mit lokaler Modellintegration |
-| **[CodeWhisper](https://github.com/9t29zhmwdh-coder/CodeWhisper)** | macOS KI-Code-Assistent mit NSServices-Integration |
+| **[SwiftAgent](https://github.com/9t29zhmwdh-coder/SwiftAgent)** | Natives iOS AI-Chat-Interface mit lokaler Modellintegration |
+| **[CodeWhisper](https://github.com/9t29zhmwdh-coder/CodeWhisper)** | macOS AI-Code-Assistent mit NSServices-Integration |
 
 ### C# + WPF Windows-Tools
 
@@ -93,7 +93,7 @@ Täglich im Einsatz über den gesamten Microsoft-Stack auf einem Surface Laptop 
 | **[SiliconMark](https://github.com/9t29zhmwdh-coder/SiliconMark)** | Apple Silicon LLM-Benchmark: Token/s, RAM, ANE |
 | **[NetScanX](https://github.com/9t29zhmwdh-coder/NetScanX)** | Plattformübergreifende Netzwerk-Discovery und Diagnose-CLI |
 | **[GardenFlow](https://github.com/9t29zhmwdh-coder/GardenFlow)** | Modulare Heimgarten-Automatisierung (MQTT, FastAPI, Docker) |
-| **[HomePortal](https://github.com/9t29zhmwdh-coder/HomePortal)** | Self-hosted Heimportal (FastAPI, Docker) |
+| **[HomePortal](https://github.com/9t29zhmwdh-coder/HomePortal)** | Self-hosted Home-Portal (FastAPI, Docker) |
 | **[azure-cost-forecasting-engine](https://github.com/9t29zhmwdh-coder/azure-cost-forecasting-engine)** | Azure Kostenanalyse, Prognose und Optimierungsempfehlungen über die Consumption API |
 
 ### Infrastruktur & Security
@@ -107,12 +107,12 @@ Täglich im Einsatz über den gesamten Microsoft-Stack auf einem Surface Laptop 
 
 ---
 
-## KI & LLM Lab
+## AI & LLM Lab
 
-Lokales KI-Labor auf Apple Silicon (Laptop und Desktop): Open-Source-Modelle werden getestet und direkt mit Cloud-APIs verglichen, integriert in meine eigenen Tools.
+Lokales AI-Lab auf Apple Silicon (Laptop und Desktop): Open-Source-Modelle werden getestet und direkt mit Cloud-APIs verglichen, integriert in meine eigenen Tools.
 
 **Lokale Inferenz via Ollama:**
-- Täglicher Treiber: Qwen 3.5 als primäres Modell und persönliche Vergleichsbasis
+- Daily Driver: Qwen 3.5 als primäres Modell und persönliche Vergleichsbasis
 - Laufende Tests neuer Releases dagegen: LFM 2.5, Gemma 4, Qwen 2.5 und weitere
 - SiliconMark (mein eigenes Tool) zum Messen von Token/s, RAM-Auslastung und ANE-Aktivität
 
