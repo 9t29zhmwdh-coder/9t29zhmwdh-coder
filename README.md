@@ -109,7 +109,7 @@ Working daily across the full Microsoft stack on a Surface Laptop 7 with Snapdra
 | **[GardenFlow](https://github.com/9t29zhmwdh-coder/GardenFlow)** | Modular home garden automation (MQTT, FastAPI, Docker) |
 | **[HomePortal](https://github.com/9t29zhmwdh-coder/HomePortal)** | Self-hosted home services portal (FastAPI, Docker) |
 | **[azure-cost-forecasting-engine](https://github.com/9t29zhmwdh-coder/azure-cost-forecasting-engine)** | Azure cost analysis, forecasting and optimization recommendations via Consumption API |
-| **[eventhub-otel-mapper](https://github.com/9t29zhmwdh-coder/eventhub-otel-mapper)** | Map Azure EventHub messages to OpenTelemetry Traces and Metrics (OTLP, JSON/Avro/Protobuf, Azure Monitor) |
+| **[eventhub-otlp-mapper](https://github.com/9t29zhmwdh-coder/eventhub-otlp-mapper)** | Map Azure EventHub messages to OpenTelemetry Traces and Metrics (OTLP, JSON/Avro/Protobuf, Azure Monitor) |
 
 ### Infrastructure & Security
 
