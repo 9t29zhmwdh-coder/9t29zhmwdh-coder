@@ -151,8 +151,7 @@ comparing them against cloud APIs, integrated directly into my own tools.
 ## Background
 
 **20+ years** in logistics & supply chain management  
-**3+ years** in ICT infrastructure & support  
-**Certifications:** SIZ Informatik, ICT Power-User, Leadership
+**3+ years** in ICT infrastructure & support
 
 Translated from logistics mindset: **systems thinking, process optimization, hands-on engineering.**
 
