@@ -9,21 +9,7 @@
   Building tools for practical problems. Everything runs local. Everything offline-first.
 </div>
 
-![Rust](https://img.shields.io/badge/Rust-orange?logo=rust)
-![Swift](https://img.shields.io/badge/Swift-orange?logo=swift)
-![Python](https://img.shields.io/badge/Python-orange?logo=python)
-![C%23](https://img.shields.io/badge/C%23-orange?logo=dotnet)
-![Tauri](https://img.shields.io/badge/Tauri-blue?logo=tauri)
-![WPF](https://img.shields.io/badge/WPF-.NET%208-blue?logo=windows)
-![Visual Studio](https://img.shields.io/badge/Visual%20Studio-2022-blue?logo=visualstudio)
-![VS Code](https://img.shields.io/badge/VS%20Code-blue?logo=visualstudiocode)
-![Ollama](https://img.shields.io/badge/Ollama-local%20AI-lightgrey?logo=ollama)
-![Azure](https://img.shields.io/badge/Azure-Monitor%20%7C%20Sentinel-blue?logo=microsoftazure)
-![Apple Silicon](https://img.shields.io/badge/Apple%20Silicon-macOS-lightgrey?logo=apple)
-![Surface](https://img.shields.io/badge/Surface%20Laptop%207-Snapdragon%20X%20Elite-lightgrey?logo=windows)
-![Claude](https://img.shields.io/badge/Claude-API-blue?logo=anthropic)
-![GitHub Copilot](https://img.shields.io/badge/GitHub%20Copilot-blue?logo=github)
-![Windows Copilot](https://img.shields.io/badge/Windows%20Copilot-blue?logo=windows)
+![Rust](https://img.shields.io/badge/Rust-CE422B?logo=rust&logoColor=white) ![Swift](https://img.shields.io/badge/Swift-F05138?logo=swift&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) ![C#](https://img.shields.io/badge/C%23-239120?logo=dotnet&logoColor=white) ![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?logo=powershell&logoColor=white) ![Tauri](https://img.shields.io/badge/Tauri-24C8D8?logo=tauri&logoColor=white) ![WPF](https://img.shields.io/badge/WPF-.NET_8-5391FE?logo=windows&logoColor=white) ![Visual Studio](https://img.shields.io/badge/Visual_Studio-2022-5C2D91?logo=visualstudio&logoColor=white) ![VS Code](https://img.shields.io/badge/VS_Code-blue?logo=visualstudiocode&logoColor=white) ![Xcode](https://img.shields.io/badge/Xcode-147EFB?logo=xcode&logoColor=white) ![Azure Monitor](https://img.shields.io/badge/Azure-Monitor-0078d4?logo=microsoftazure&logoColor=white) ![Microsoft Sentinel](https://img.shields.io/badge/Microsoft-Sentinel-0078d4?logo=microsoftazure&logoColor=white) ![Entra ID](https://img.shields.io/badge/Microsoft-Entra_ID-0078d4?logo=microsoftazure&logoColor=white) ![M365](https://img.shields.io/badge/Microsoft-M365-0078d4?logo=microsoft&logoColor=white) ![Apple Silicon](https://img.shields.io/badge/Apple-Silicon-000000?logo=apple&logoColor=white) ![AI | Claude Code](https://img.shields.io/badge/AI-Claude_Code-black?logo=anthropic&logoColor=white) ![AI | Copilot](https://img.shields.io/badge/AI-Copilot-black?logo=github&logoColor=white) ![AI | Windows Copilot](https://img.shields.io/badge/AI-Windows_Copilot-black?logo=windows&logoColor=white) ![AI | Ollama](https://img.shields.io/badge/AI-Ollama-black?logo=ollama&logoColor=white)
 
 > 🇩🇪 [Deutsche Version](README.de.md)
 
@@ -45,7 +31,7 @@
 | **Web/Frontend** | TypeScript, React, Tailwind CSS |
 | **Backend** | Rust async (Tokio), Python, PowerShell 7 |
 | **Data** | SQLite with FTS5, PostgreSQL |
-| **AI** | Ollama (local), Qwen 3.5, GitHub Copilot, Windows Copilot |
+| **AI** | Ollama (local), Qwen 3.5, Claude Code, Copilot CoWork, Windows Copilot |
 | **IDE / Tools** | Visual Studio 2022, Visual Studio Code, Xcode, Windows Terminal |
 | **DevOps** | Git/GitHub, Docker, GitHub Actions |
 
@@ -137,9 +123,8 @@ comparing them against cloud APIs, integrated directly into my own tools.
 - Nous Hermes running as a 24/7 local agent for long-term workflow and reliability tests
 - Handles multi-step pipelines, tool calling and unattended tasks entirely on-device
 - qwen3-coder tested as a local coding agent against cloud-based coding tools
-- Claude API used as the cloud reference point in agent and workflow benchmarks
-- GitHub Copilot integrated in Visual Studio and VS Code for enterprise development: .NET, WPF,
-  PowerShell scripting, M365 automation and code reviews
+- Claude Code: CLI-based AI pair programmer for architecture, code review and multi-file refactors
+- Copilot CoWork: GitHub Copilot integrated across Visual Studio, VS Code and JetBrains for enterprise .NET, WPF, PowerShell and M365 automation
 - Windows Copilot on Surface Laptop 7 (Snapdragon X Elite, ARM-native): daily companion for
   drafting, research and hands-on testing of Microsoft AI features on Windows on ARM
 
