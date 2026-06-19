@@ -103,7 +103,7 @@ Täglich im Einsatz über den gesamten Microsoft-Stack auf einem Surface Laptop 
 | **[M365-AdminTool](https://github.com/9t29zhmwdh-coder/M365-AdminTool)** | PowerShell-Toolkit für Microsoft 365 Administration |
 | **[entra-least-privilege-analyzer](https://github.com/9t29zhmwdh-coder/entra-least-privilege-analyzer)** | Read-only Rust CLI zur Entra ID Berechtigungsanalyse, PIM-Lückenerkennung und Rollen-Overlap-Auswertung |
 | **[azure-policy-drift-detector](https://github.com/9t29zhmwdh-coder/azure-policy-drift-detector)** | Read-only Rust CLI zur Erkennung von Azure Policy Drift, Priorisierung nicht-konformer Ressourcen und Erstellung von Behebungsberichten |
-| **[github-actions-security-sandbox](https://github.com/9t29zhmwdh-coder/github-actions-security-sandbox)** | Statische Analyse und Angriffssimulation fuer GitHub Actions Workflows: Injection, Pwn Request, ungepinnte Actions |
+| **[github-actions-security-sandbox](https://github.com/9t29zhmwdh-coder/github-actions-security-sandbox)** | Statische Analyse und Angriffssimulation für GitHub Actions Workflows: Injection, Pwn Request, ungepinnte Actions |
 
 ---
 
@@ -120,8 +120,8 @@ Lokales AI-Lab auf Apple Silicon (Laptop und Desktop): Open-Source-Modelle werde
 - Nous Hermes läuft als 24/7 lokaler Agent für Langzeit-Workflow- und Stabilitätstests
 - Übernimmt mehrstufige Pipelines, Tool-Calling und unbeaufsichtigte Aufgaben vollständig auf dem Gerät
 - qwen3-coder wird als lokaler Coding-Agent im Vergleich zu Cloud-basierten Coding-Tools getestet
-- Claude Code: CLI-basierter KI-Programmier-Partner fuer Architektur, Code-Review und Multi-File-Refactors
-- Copilot CoWork: GitHub Copilot in Visual Studio, VS Code und JetBrains fuer Enterprise .NET, WPF, PowerShell und M365-Automatisierung
+- Claude Code: CLI-basierter KI-Programmier-Partner für Architektur, Code-Review und Multi-File-Refactors
+- Copilot CoWork: GitHub Copilot in Visual Studio, VS Code und JetBrains für Enterprise .NET, WPF, PowerShell und M365-Automatisierung
 - Windows Copilot auf dem Surface Laptop 7 (Snapdragon X Elite, ARM-nativ): täglicher Begleiter
   für Entwürfe, Recherche und praxisnahe Tests von Microsoft-KI-Features auf Windows on ARM
 
