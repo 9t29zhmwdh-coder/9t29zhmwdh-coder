@@ -61,7 +61,7 @@ Täglich im Einsatz über den gesamten Microsoft-Stack auf einem Surface Laptop 
 | **[ClarityDesk](https://github.com/9t29zhmwdh-coder/ClarityDesk)** | Universeller Display-Interpreter: OCR + lokale KI |
 | **[DeviceHealth](https://github.com/9t29zhmwdh-coder/DeviceHealth)** | Cross-platform System-Health-Monitor |
 | **[MailPilot](https://github.com/9t29zhmwdh-coder/MailPilot)** | Offline-E-Mail-Client mit KI-Klassifizierung |
-| **[BugRadar](https://github.com/9t29zhmwdh-coder/BugRadar)** | Echtzeit-Log-Analyse und AI-gestützte Incident-Erkennung |
+| **[BugRadar](https://github.com/9t29zhmwdh-coder/BugRadar)** | Echtzeit-Log-Analyse und KI-gestützte Incident-Erkennung |
 
 ### Rust CLI & Backend
 
