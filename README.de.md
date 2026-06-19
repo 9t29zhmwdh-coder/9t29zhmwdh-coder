@@ -148,8 +148,7 @@ Lokales AI-Lab auf Apple Silicon (Laptop und Desktop): Open-Source-Modelle werde
 ## Hintergrund
 
 **20+ Jahre** in Logistik & Supply-Chain-Management  
-**3+ Jahre** in ICT-Infrastruktur & Support  
-**Zertifikate:** SIZ Informatik, ICT Power-User, Leadership
+**3+ Jahre** in ICT-Infrastruktur & Support
 
 Übertragen aus der Logistik-Denkweise: **Systemdenken, Prozessoptimierung, praxisnahes Engineering.**
 
