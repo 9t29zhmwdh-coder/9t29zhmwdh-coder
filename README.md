@@ -15,6 +15,26 @@
 
 ---
 
+## Featured
+
+**[agent-governance-console](https://github.com/9t29zhmwdh-coder/agent-governance-console)** [![CI](https://github.com/9t29zhmwdh-coder/agent-governance-console/actions/workflows/ci.yml/badge.svg)](https://github.com/9t29zhmwdh-coder/agent-governance-console/actions) [![Release](https://img.shields.io/github/v/release/9t29zhmwdh-coder/agent-governance-console?color=3F8E7E)](https://github.com/9t29zhmwdh-coder/agent-governance-console/releases)  
+Enterprise governance & audit for AI agent workflows — Rust/Axum, OpenTelemetry, Azure Monitor, Microsoft Sentinel, Entra ID.
+
+**[entra-least-privilege-analyzer](https://github.com/9t29zhmwdh-coder/entra-least-privilege-analyzer)** [![CI](https://github.com/9t29zhmwdh-coder/entra-least-privilege-analyzer/actions/workflows/ci.yml/badge.svg)](https://github.com/9t29zhmwdh-coder/entra-least-privilege-analyzer/actions) [![Release](https://img.shields.io/github/v/release/9t29zhmwdh-coder/entra-least-privilege-analyzer?color=3F8E7E)](https://github.com/9t29zhmwdh-coder/entra-least-privilege-analyzer/releases)  
+Read-only Entra ID privilege analysis: over-privileged accounts, role overlap, PIM gaps. Ships a bring-your-own-token mode for portal integration.
+
+**[github-actions-security-sandbox](https://github.com/9t29zhmwdh-coder/github-actions-security-sandbox)** [![CI](https://github.com/9t29zhmwdh-coder/github-actions-security-sandbox/actions/workflows/ci.yml/badge.svg)](https://github.com/9t29zhmwdh-coder/github-actions-security-sandbox/actions) [![Release](https://img.shields.io/github/v/release/9t29zhmwdh-coder/github-actions-security-sandbox?color=3F8E7E)](https://github.com/9t29zhmwdh-coder/github-actions-security-sandbox/releases)  
+Static analysis & attack simulation for GitHub Actions workflows: script injection, Pwn Request, secret exposure, unpinned actions.
+
+
+## How I Work
+
+- Every public repo follows my published [engineering standards](https://github.com/9t29zhmwdh-coder/engineering-standards): security-first checklists, testing strategy, semantic releases.
+- Branch protection is technically enforced on every repo (no direct pushes, PR flow, no force-push) — via GitHub rulesets, including against myself.
+- AI-assisted development (Claude Code, Copilot) is governed by those standards, not the other way around.
+- Releases are verified before publishing: builds, test suites and functional smoke tests documented in the release notes.
+
+---
 ## What I Work With
 
 ### Infrastructure & Automation
@@ -34,20 +54,6 @@
 | **AI** | Ollama (local), Qwen 3.5, Claude Code, Copilot CoWork, Windows Copilot |
 | **IDE / Tools** | Visual Studio 2022, Visual Studio Code, Xcode, Windows Terminal |
 | **DevOps** | Git/GitHub, Docker, GitHub Actions |
-
-### Microsoft Ecosystem
-
-Working daily across the full Microsoft stack on a Surface Laptop 7 with Snapdragon X Elite:
-
-| Area | Tools & Services |
-|---|---|
-| **Hardware** | Surface Laptop 7, Snapdragon X Elite, Windows 11 on ARM |
-| **Development** | Visual Studio 2022, Visual Studio Code, Windows Terminal, PowerShell 7 |
-| **AI Companions** | GitHub Copilot (IDE integration), Windows Copilot (native ARM) |
-| **Enterprise** | Microsoft 365, Exchange Online, Entra ID, Microsoft Teams |
-| **Cloud** | Azure Monitor, Microsoft Sentinel, Microsoft Graph API |
-
----
 
 ## Projects
 
@@ -101,7 +107,6 @@ Working daily across the full Microsoft stack on a Surface Laptop 7 with Snapdra
 
 | Project | Description |
 |---|---|
-| **[M365-AdminTool](https://github.com/9t29zhmwdh-coder/M365-AdminTool)** | PowerShell toolkit for Microsoft 365 administration |
 | **[entra-access-graph-engine](https://github.com/9t29zhmwdh-coder/entra-access-graph-engine)** | Entra ID privilege access graph: detect escalation paths, hidden admin chains, and risk scores (Rust, Graph API) |
 | **[entra-least-privilege-analyzer](https://github.com/9t29zhmwdh-coder/entra-least-privilege-analyzer)** | Read-only Rust CLI for Entra ID privilege analysis, PIM gap detection and role overlap reporting |
 | **[azure-policy-drift-detector](https://github.com/9t29zhmwdh-coder/azure-policy-drift-detector)** | Read-only Rust CLI to detect Azure Policy drift, prioritize non-compliant resources and generate remediation reports |
@@ -136,18 +141,6 @@ comparing them against cloud APIs, integrated directly into my own tools.
   both local Ollama models and cloud APIs
 - The goal: find where a well-tuned local model is good enough and where cloud capability
   actually justifies the tradeoff
-
----
-
-## Focus Areas
-
-- Rust: Tauri desktop apps, async backends, CLI tools
-- Python: automation, benchmarks, data processing
-- C#: Windows desktop and enterprise tools with Visual Studio 2022
-- Local AI: Ollama, Qwen 3.5, offline-first
-- macOS/iOS: Swift development, Xcode
-- Microsoft / Azure: M365, Exchange Online, Entra ID, Azure Monitor, WPF, Visual Studio and enterprise integrations
-- Windows on ARM: Surface Laptop 7 with Snapdragon X Elite as the primary Windows development machine
 
 ---
 
