@@ -106,6 +106,7 @@ Working daily across the full Microsoft stack on a Surface Laptop 7 with Snapdra
 | **[entra-least-privilege-analyzer](https://github.com/9t29zhmwdh-coder/entra-least-privilege-analyzer)** | Read-only Rust CLI for Entra ID privilege analysis, PIM gap detection and role overlap reporting |
 | **[azure-policy-drift-detector](https://github.com/9t29zhmwdh-coder/azure-policy-drift-detector)** | Read-only Rust CLI to detect Azure Policy drift, prioritize non-compliant resources and generate remediation reports |
 | **[github-actions-security-sandbox](https://github.com/9t29zhmwdh-coder/github-actions-security-sandbox)** | Static analysis and attack simulation for GitHub Actions workflows: injection, Pwn Request, unpinned actions |
+| **[engineering-standards](https://github.com/9t29zhmwdh-coder/engineering-standards)** | Public engineering standards governing all my repos: security-first checklists, testing strategy, enforced branch protection rulesets |
 
 ---
 
@@ -123,7 +124,9 @@ comparing them against cloud APIs, integrated directly into my own tools.
 - Nous Hermes running as a 24/7 local agent for long-term workflow and reliability tests
 - Handles multi-step pipelines, tool calling and unattended tasks entirely on-device
 - qwen3-coder tested as a local coding agent against cloud-based coding tools
-- Claude Code: CLI-based AI pair programmer for architecture, code review and multi-file refactors
+- Claude Code: CLI-based AI pair programmer for architecture, code review and multi-file refactors —
+  governed by my public [engineering standards](https://github.com/9t29zhmwdh-coder/engineering-standards)
+  (security-first rules, risk-based merge policy, branch protection enforced via GitHub rulesets on every repo)
 - Copilot CoWork: GitHub Copilot integrated across Visual Studio, VS Code and JetBrains for enterprise .NET, WPF, PowerShell and M365 automation
 - Windows Copilot on Surface Laptop 7 (Snapdragon X Elite, ARM-native): daily companion for
   drafting, research and hands-on testing of Microsoft AI features on Windows on ARM
