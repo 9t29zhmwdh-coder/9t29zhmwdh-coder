@@ -15,6 +15,26 @@
 
 ---
 
+## Ausgewählte Projekte
+
+**[agent-governance-console](https://github.com/9t29zhmwdh-coder/agent-governance-console)** [![CI](https://github.com/9t29zhmwdh-coder/agent-governance-console/actions/workflows/ci.yml/badge.svg)](https://github.com/9t29zhmwdh-coder/agent-governance-console/actions) [![Release](https://img.shields.io/github/v/release/9t29zhmwdh-coder/agent-governance-console?color=3F8E7E)](https://github.com/9t29zhmwdh-coder/agent-governance-console/releases)  
+Enterprise-Governance & Audit für KI-Agent-Workflows — Rust/Axum, OpenTelemetry, Azure Monitor, Microsoft Sentinel, Entra ID.
+
+**[entra-least-privilege-analyzer](https://github.com/9t29zhmwdh-coder/entra-least-privilege-analyzer)** [![CI](https://github.com/9t29zhmwdh-coder/entra-least-privilege-analyzer/actions/workflows/ci.yml/badge.svg)](https://github.com/9t29zhmwdh-coder/entra-least-privilege-analyzer/actions) [![Release](https://img.shields.io/github/v/release/9t29zhmwdh-coder/entra-least-privilege-analyzer?color=3F8E7E)](https://github.com/9t29zhmwdh-coder/entra-least-privilege-analyzer/releases)  
+Read-only Entra-ID-Privilegien-Analyse: überprivilegierte Konten, Rollen-Überschneidungen, PIM-Lücken. Mit Bring-your-own-Token-Modus für Portal-Integration.
+
+**[github-actions-security-sandbox](https://github.com/9t29zhmwdh-coder/github-actions-security-sandbox)** [![CI](https://github.com/9t29zhmwdh-coder/github-actions-security-sandbox/actions/workflows/ci.yml/badge.svg)](https://github.com/9t29zhmwdh-coder/github-actions-security-sandbox/actions) [![Release](https://img.shields.io/github/v/release/9t29zhmwdh-coder/github-actions-security-sandbox?color=3F8E7E)](https://github.com/9t29zhmwdh-coder/github-actions-security-sandbox/releases)  
+Statische Analyse & Angriffssimulation für GitHub-Actions-Workflows: Script Injection, Pwn Request, Secret Exposure, ungepinnte Actions.
+
+
+## Wie ich arbeite
+
+- Jedes öffentliche Repo folgt meinen publizierten [Engineering-Standards](https://github.com/9t29zhmwdh-coder/engineering-standards): Security-First-Checklisten, Testing-Strategie, semantische Releases.
+- Branch Protection ist auf jedem Repo technisch erzwungen (kein Direct-Push, PR-Pflicht, kein Force-Push) — via GitHub Rulesets, auch gegen mich selbst.
+- KI-gestützte Entwicklung (Claude Code, Copilot) unterliegt diesen Standards — nicht umgekehrt.
+- Releases werden vor Veröffentlichung verifiziert: Builds, Test-Suiten und funktionale Smoke-Tests stehen dokumentiert in den Release Notes.
+
+---
 ## Womit ich arbeite
 
 ### Infrastruktur & Automatisierung
@@ -34,20 +54,6 @@
 | **KI** | Ollama (lokal), Qwen 3.5, Claude Code, Copilot CoWork, Windows Copilot |
 | **IDE / Tools** | Visual Studio 2022, Visual Studio Code, Xcode, Windows Terminal |
 | **DevOps** | Git/GitHub, Docker, GitHub Actions |
-
-### Microsoft Ecosystem
-
-Täglich im Einsatz über den gesamten Microsoft-Stack auf einem Surface Laptop 7 mit Snapdragon X Elite:
-
-| Bereich | Tools & Dienste |
-|---|---|
-| **Hardware** | Surface Laptop 7, Snapdragon X Elite, Windows 11 on ARM |
-| **Entwicklung** | Visual Studio 2022, Visual Studio Code, Windows Terminal, PowerShell 7 |
-| **KI-Begleiter** | GitHub Copilot (IDE-Integration), Windows Copilot (nativ auf ARM) |
-| **Enterprise** | Microsoft 365, Exchange Online, Entra ID, Microsoft Teams |
-| **Cloud** | Azure Monitor, Microsoft Sentinel, Microsoft Graph API |
-
----
 
 ## Projekte
 
@@ -100,7 +106,6 @@ Täglich im Einsatz über den gesamten Microsoft-Stack auf einem Surface Laptop 
 
 | Projekt | Beschreibung |
 |---|---|
-| **[M365-AdminTool](https://github.com/9t29zhmwdh-coder/M365-AdminTool)** | PowerShell-Toolkit für Microsoft 365 Administration |
 | **[entra-least-privilege-analyzer](https://github.com/9t29zhmwdh-coder/entra-least-privilege-analyzer)** | Read-only Rust CLI zur Entra ID Berechtigungsanalyse, PIM-Lückenerkennung und Rollen-Overlap-Auswertung |
 | **[azure-policy-drift-detector](https://github.com/9t29zhmwdh-coder/azure-policy-drift-detector)** | Read-only Rust CLI zur Erkennung von Azure Policy Drift, Priorisierung nicht-konformer Ressourcen und Erstellung von Behebungsberichten |
 | **[github-actions-security-sandbox](https://github.com/9t29zhmwdh-coder/github-actions-security-sandbox)** | Statische Analyse und Angriffssimulation für GitHub Actions Workflows: Injection, Pwn Request, ungepinnte Actions |
@@ -133,18 +138,6 @@ Lokales AI-Lab auf Apple Silicon (Laptop und Desktop): Open-Source-Modelle werde
   sowohl lokale Ollama-Modelle als auch Cloud-APIs
 - Ziel: herausfinden, wo ein gut eingestelltes lokales Modell ausreicht und wo Cloud-Kapazität
   den Kompromiss tatsächlich rechtfertigt
-
----
-
-## Schwerpunkte
-
-- Rust: Tauri Desktop-Apps, async Backends, CLI-Tools
-- Python: Automatisierung, Benchmarks, Datenverarbeitung
-- C#: Windows Desktop und Enterprise-Tools mit Visual Studio 2022
-- Lokale KI: Ollama, Qwen 3.5, offline-first
-- macOS/iOS: Swift-Entwicklung, Xcode
-- Microsoft / Azure: M365, Exchange Online, Entra ID, Azure Monitor, WPF, Visual Studio und Enterprise-Integrationen
-- Windows on ARM: Surface Laptop 7 mit Snapdragon X Elite als primäre Windows-Entwicklungsmaschine
 
 ---
 
