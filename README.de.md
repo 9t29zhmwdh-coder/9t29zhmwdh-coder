@@ -18,7 +18,7 @@
 ## Ausgewählte Projekte
 
 **[agent-governance-console](https://github.com/9t29zhmwdh-coder/agent-governance-console)** [![CI](https://github.com/9t29zhmwdh-coder/agent-governance-console/actions/workflows/ci.yml/badge.svg)](https://github.com/9t29zhmwdh-coder/agent-governance-console/actions) [![Release](https://img.shields.io/github/v/release/9t29zhmwdh-coder/agent-governance-console?color=3F8E7E)](https://github.com/9t29zhmwdh-coder/agent-governance-console/releases)  
-Enterprise-Governance & Audit für KI-Agent-Workflows — Rust/Axum, OpenTelemetry, Azure Monitor, Microsoft Sentinel, Entra ID.
+Enterprise-Governance & Audit für KI-Agent-Workflows. Gebaut mit Rust/Axum, OpenTelemetry, Azure Monitor, Microsoft Sentinel und Entra ID.
 
 **[entra-least-privilege-analyzer](https://github.com/9t29zhmwdh-coder/entra-least-privilege-analyzer)** [![CI](https://github.com/9t29zhmwdh-coder/entra-least-privilege-analyzer/actions/workflows/ci.yml/badge.svg)](https://github.com/9t29zhmwdh-coder/entra-least-privilege-analyzer/actions) [![Release](https://img.shields.io/github/v/release/9t29zhmwdh-coder/entra-least-privilege-analyzer?color=3F8E7E)](https://github.com/9t29zhmwdh-coder/entra-least-privilege-analyzer/releases)  
 Read-only Entra-ID-Privilegien-Analyse: überprivilegierte Konten, Rollen-Überschneidungen, PIM-Lücken. Mit Bring-your-own-Token-Modus für Portal-Integration.
@@ -30,8 +30,8 @@ Statische Analyse & Angriffssimulation für GitHub-Actions-Workflows: Script Inj
 ## Wie ich arbeite
 
 - Jedes öffentliche Repo folgt meinen publizierten [Engineering-Standards](https://github.com/9t29zhmwdh-coder/engineering-standards): Security-First-Checklisten, Testing-Strategie, semantische Releases.
-- Branch Protection ist auf jedem Repo technisch erzwungen (kein Direct-Push, PR-Pflicht, kein Force-Push) — via GitHub Rulesets, auch gegen mich selbst.
-- KI-gestützte Entwicklung (Claude Code, Copilot) unterliegt diesen Standards — nicht umgekehrt.
+- Branch Protection ist auf jedem Repo technisch per GitHub Rulesets erzwungen (kein Direct-Push, PR-Pflicht, kein Force-Push), auch gegen mich selbst.
+- KI-gestützte Entwicklung (Claude Code, Copilot) unterliegt diesen Standards, nicht umgekehrt.
 - Releases werden vor Veröffentlichung verifiziert: Builds, Test-Suiten und funktionale Smoke-Tests stehen dokumentiert in den Release Notes.
 
 ---
@@ -126,8 +126,8 @@ Lokales AI-Lab auf Apple Silicon (Laptop und Desktop): Open-Source-Modelle werde
 - Nous Hermes läuft als 24/7 lokaler Agent für Langzeit-Workflow- und Stabilitätstests
 - Übernimmt mehrstufige Pipelines, Tool-Calling und unbeaufsichtigte Aufgaben vollständig auf dem Gerät
 - qwen3-coder wird als lokaler Coding-Agent im Vergleich zu Cloud-basierten Coding-Tools getestet
-- Claude Code: CLI-basierter KI-Programmier-Partner für Architektur, Code-Review und Multi-File-Refactors —
-  gesteuert durch meine öffentlichen [Engineering-Standards](https://github.com/9t29zhmwdh-coder/engineering-standards)
+- Claude Code: CLI-basierter KI-Programmier-Partner für Architektur, Code-Review und Multi-File-Refactors.
+  Gesteuert durch meine öffentlichen [Engineering-Standards](https://github.com/9t29zhmwdh-coder/engineering-standards)
   (Security-First-Regeln, risikobasierte Merge-Policy, Branch Protection via GitHub Rulesets auf jedem Repo erzwungen)
 - Copilot CoWork: GitHub Copilot in Visual Studio, VS Code und JetBrains für Enterprise .NET, WPF, PowerShell und M365-Automatisierung
 - Windows Copilot auf dem Surface Laptop 7 (Snapdragon X Elite, ARM-nativ): täglicher Begleiter

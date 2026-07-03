@@ -18,7 +18,7 @@
 ## Featured
 
 **[agent-governance-console](https://github.com/9t29zhmwdh-coder/agent-governance-console)** [![CI](https://github.com/9t29zhmwdh-coder/agent-governance-console/actions/workflows/ci.yml/badge.svg)](https://github.com/9t29zhmwdh-coder/agent-governance-console/actions) [![Release](https://img.shields.io/github/v/release/9t29zhmwdh-coder/agent-governance-console?color=3F8E7E)](https://github.com/9t29zhmwdh-coder/agent-governance-console/releases)  
-Enterprise governance & audit for AI agent workflows — Rust/Axum, OpenTelemetry, Azure Monitor, Microsoft Sentinel, Entra ID.
+Enterprise governance & audit for AI agent workflows. Built with Rust/Axum, OpenTelemetry, Azure Monitor, Microsoft Sentinel and Entra ID.
 
 **[entra-least-privilege-analyzer](https://github.com/9t29zhmwdh-coder/entra-least-privilege-analyzer)** [![CI](https://github.com/9t29zhmwdh-coder/entra-least-privilege-analyzer/actions/workflows/ci.yml/badge.svg)](https://github.com/9t29zhmwdh-coder/entra-least-privilege-analyzer/actions) [![Release](https://img.shields.io/github/v/release/9t29zhmwdh-coder/entra-least-privilege-analyzer?color=3F8E7E)](https://github.com/9t29zhmwdh-coder/entra-least-privilege-analyzer/releases)  
 Read-only Entra ID privilege analysis: over-privileged accounts, role overlap, PIM gaps. Ships a bring-your-own-token mode for portal integration.
@@ -30,7 +30,7 @@ Static analysis & attack simulation for GitHub Actions workflows: script injecti
 ## How I Work
 
 - Every public repo follows my published [engineering standards](https://github.com/9t29zhmwdh-coder/engineering-standards): security-first checklists, testing strategy, semantic releases.
-- Branch protection is technically enforced on every repo (no direct pushes, PR flow, no force-push) — via GitHub rulesets, including against myself.
+- Branch protection is technically enforced on every repo via GitHub rulesets (no direct pushes, PR flow, no force-push), including against myself.
 - AI-assisted development (Claude Code, Copilot) is governed by those standards, not the other way around.
 - Releases are verified before publishing: builds, test suites and functional smoke tests documented in the release notes.
 
@@ -129,8 +129,8 @@ comparing them against cloud APIs, integrated directly into my own tools.
 - Nous Hermes running as a 24/7 local agent for long-term workflow and reliability tests
 - Handles multi-step pipelines, tool calling and unattended tasks entirely on-device
 - qwen3-coder tested as a local coding agent against cloud-based coding tools
-- Claude Code: CLI-based AI pair programmer for architecture, code review and multi-file refactors —
-  governed by my public [engineering standards](https://github.com/9t29zhmwdh-coder/engineering-standards)
+- Claude Code: CLI-based AI pair programmer for architecture, code review and multi-file refactors.
+  Governed by my public [engineering standards](https://github.com/9t29zhmwdh-coder/engineering-standards)
   (security-first rules, risk-based merge policy, branch protection enforced via GitHub rulesets on every repo)
 - Copilot CoWork: GitHub Copilot integrated across Visual Studio, VS Code and JetBrains for enterprise .NET, WPF, PowerShell and M365 automation
 - Windows Copilot on Surface Laptop 7 (Snapdragon X Elite, ARM-native): daily companion for
