@@ -64,26 +64,26 @@ Statische Analyse & Angriffssimulation für GitHub-Actions-Workflows: Script Inj
 | **[LifePlanner](https://github.com/9t29zhmwdh-coder/LifePlanner)** | Offline KI-Lebensplaner: Termine, Aufgaben und Ziele |
 | **[LifeSort](https://github.com/9t29zhmwdh-coder/LifeSort)** | AI-File-Organizer: Regeln, Duplikate, Automatisierung |
 | **[CleanFlow](https://github.com/9t29zhmwdh-coder/CleanFlow)** | Smart Disk Cleanup: Temp-Dateien, Caches, Duplikate |
-| **[ClarityDesk](https://github.com/9t29zhmwdh-coder/ClarityDesk)** | Universeller Display-Interpreter: OCR + lokale KI |
-| **[DeviceHealth](https://github.com/9t29zhmwdh-coder/DeviceHealth)** | Cross-platform System-Health-Monitor |
-| **[MailPilot](https://github.com/9t29zhmwdh-coder/MailPilot)** | Offline-E-Mail-Client mit KI-Klassifizierung |
-| **[BugRadar](https://github.com/9t29zhmwdh-coder/BugRadar)** | Echtzeit-Log-Analyse und KI-gestützte Incident-Erkennung |
+| **[ClarityDesk](https://github.com/9t29zhmwdh-coder/ClarityDesk)** | Erfasst den Bildschirm, liest Text per OCR aus und erklärt ihn mit lokaler KI (übersetzen, Code erklären, Logs analysieren) |
+| **[DeviceHealth](https://github.com/9t29zhmwdh-coder/DeviceHealth)** | Prüft Prozesse, Hardware und Netzwerk, erkennt Probleme und erklärt die Lösung in Klartext, komplett offline |
+| **[MailPilot](https://github.com/9t29zhmwdh-coder/MailPilot)** | Lokaler E-Mail-Client, der jede Nachricht mit KI auf dem Gerät einsortiert; nichts verlässt den Rechner |
+| **[BugRadar](https://github.com/9t29zhmwdh-coder/BugRadar)** | Überwacht Logs, Container und Metriken live, bündelt Anomalien zu Incidents mit KI-Ursachenanalyse |
 
 ### Rust CLI & Backend
 
 | Projekt | Beschreibung |
 |---|---|
-| **[LogLens](https://github.com/9t29zhmwdh-coder/LogLens)** | AI-Log-Aggregator: Clustering, Anomalie-Erkennung, Volltextsuche |
-| **[StateForge](https://github.com/9t29zhmwdh-coder/StateForge)** | State-Machine-Analyzer: parsen, visualisieren, Code generieren |
-| **[agent-governance-console](https://github.com/9t29zhmwdh-coder/agent-governance-console)** | AI-Agent-Governance, Tracing & Audit: Axum, OpenTelemetry, Azure Monitor / Sentinel |
-| **[private-model-orchestrator](https://github.com/9t29zhmwdh-coder/private-model-orchestrator)** | Privacy-first Foundation-Model-Orchestration für Apple-Geräteflotten |
+| **[LogLens](https://github.com/9t29zhmwdh-coder/LogLens)** | Sammelt und durchsucht Logs aus Dateien, Docker und System, clustert Fehler und erklärt sie mit lokaler KI |
+| **[StateForge](https://github.com/9t29zhmwdh-coder/StateForge)** | Extrahiert State Machines aus Code, Logs oder Textbeschreibungen, zeichnet sie als Diagramme und generiert sauberen Code |
+| **[agent-governance-console](https://github.com/9t29zhmwdh-coder/agent-governance-console)** | Nimmt Ausführungs-Traces von KI-Agenten auf, erzwingt Governance-Policies pro Schritt und schreibt unveränderliche Audit-Records; Export nach Azure Monitor und Sentinel |
+| **[private-model-orchestrator](https://github.com/9t29zhmwdh-coder/private-model-orchestrator)** | Verteilt, versioniert und betreibt Core-ML-Modelle direkt auf verwalteten Apple-Flotten; keine Daten verlassen das Gerät |
 
 ### Swift für macOS & iOS
 
 | Projekt | Beschreibung |
 |---|---|
-| **[SwiftAgent](https://github.com/9t29zhmwdh-coder/SwiftAgent)** | Natives iOS AI-Chat-Interface mit lokaler Modellintegration |
-| **[CodeWhisper](https://github.com/9t29zhmwdh-coder/CodeWhisper)** | macOS AI-Code-Assistent mit NSServices-Integration |
+| **[SwiftAgent](https://github.com/9t29zhmwdh-coder/SwiftAgent)** | Abhängigkeitsfreies Swift-Framework für lokale LLM-Agenten (Ollama, llama.cpp) via async/await |
+| **[CodeWhisper](https://github.com/9t29zhmwdh-coder/CodeWhisper)** | macOS-Assistent: Code in jedem Editor markieren, per Rechtsklick mit lokaler KI erklären oder umbauen |
 
 ### C# + WPF Windows-Tools
 
@@ -96,16 +96,18 @@ Statische Analyse & Angriffssimulation für GitHub-Actions-Workflows: Script Inj
 
 | Projekt | Beschreibung |
 |---|---|
-| **[SiliconMark](https://github.com/9t29zhmwdh-coder/SiliconMark)** | Apple Silicon LLM-Benchmark: Token/s, RAM, ANE |
+| **[SiliconMark](https://github.com/9t29zhmwdh-coder/SiliconMark)** | Benchmarkt lokale LLMs auf Apple Silicon: Token/s, RAM und Neural-Engine-Aktivität (ANE) pro Modell |
 | **[NetScanX](https://github.com/9t29zhmwdh-coder/NetScanX)** | Plattformübergreifende Netzwerk-Discovery und Diagnose-CLI |
-| **[GardenFlow](https://github.com/9t29zhmwdh-coder/GardenFlow)** | Modulare Heimgarten-Automatisierung (MQTT, FastAPI, Docker) |
-| **[HomePortal](https://github.com/9t29zhmwdh-coder/HomePortal)** | Self-hosted Home-Portal (FastAPI, Docker) |
+| **[GardenFlow](https://github.com/9t29zhmwdh-coder/GardenFlow)** | Heimgarten-Automatisierung: liest Sensoren via MQTT, wendet Regeln an und steuert Pumpen über ein Live-Dashboard |
+| **[HomePortal](https://github.com/9t29zhmwdh-coder/HomePortal)** | Leichtgewichtige, selbst gehostete Startseite und Dashboard für NAS oder Heimserver (FastAPI, Docker) |
 | **[azure-cost-forecasting-engine](https://github.com/9t29zhmwdh-coder/azure-cost-forecasting-engine)** | Azure Kostenanalyse, Prognose und Optimierungsempfehlungen über die Consumption API |
+| **[eventhub-otlp-mapper](https://github.com/9t29zhmwdh-coder/eventhub-otlp-mapper)** | Wandelt Azure-EventHub-Nachrichten in OpenTelemetry-Traces und -Metriken (OTLP, JSON/Avro/Protobuf, Azure Monitor) |
 
 ### Infrastruktur & Security
 
 | Projekt | Beschreibung |
 |---|---|
+| **[entra-access-graph-engine](https://github.com/9t29zhmwdh-coder/entra-access-graph-engine)** | Entra-ID-Berechtigungs-Graph: erkennt Eskalationspfade, versteckte Admin-Ketten und Risk-Scores (Rust, Graph API) |
 | **[entra-least-privilege-analyzer](https://github.com/9t29zhmwdh-coder/entra-least-privilege-analyzer)** | Read-only Rust CLI zur Entra ID Berechtigungsanalyse, PIM-Lückenerkennung und Rollen-Overlap-Auswertung |
 | **[azure-policy-drift-detector](https://github.com/9t29zhmwdh-coder/azure-policy-drift-detector)** | Read-only Rust CLI zur Erkennung von Azure Policy Drift, Priorisierung nicht-konformer Ressourcen und Erstellung von Behebungsberichten |
 | **[github-actions-security-sandbox](https://github.com/9t29zhmwdh-coder/github-actions-security-sandbox)** | Statische Analyse und Angriffssimulation für GitHub Actions Workflows: Injection, Pwn Request, ungepinnte Actions |

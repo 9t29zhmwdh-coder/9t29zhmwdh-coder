@@ -64,26 +64,26 @@ Static analysis & attack simulation for GitHub Actions workflows: script injecti
 | **[LifePlanner](https://github.com/9t29zhmwdh-coder/LifePlanner)** | Offline AI life planner: events, tasks, goals |
 | **[LifeSort](https://github.com/9t29zhmwdh-coder/LifeSort)** | AI-powered file organizer: rules, duplicates, automation |
 | **[CleanFlow](https://github.com/9t29zhmwdh-coder/CleanFlow)** | Smart disk cleanup: temp files, caches, duplicates |
-| **[ClarityDesk](https://github.com/9t29zhmwdh-coder/ClarityDesk)** | Universal display interpreter: OCR + local AI |
-| **[DeviceHealth](https://github.com/9t29zhmwdh-coder/DeviceHealth)** | Cross-platform system health monitor |
-| **[MailPilot](https://github.com/9t29zhmwdh-coder/MailPilot)** | Offline-first email client with AI classification |
-| **[BugRadar](https://github.com/9t29zhmwdh-coder/BugRadar)** | Real-time log analysis & AI-driven incident detection |
+| **[ClarityDesk](https://github.com/9t29zhmwdh-coder/ClarityDesk)** | Captures the screen, reads text with OCR and explains it with local AI (translate, explain code, analyze logs) |
+| **[DeviceHealth](https://github.com/9t29zhmwdh-coder/DeviceHealth)** | Scans processes, hardware and network, spots problems and explains the fix in plain language, fully offline |
+| **[MailPilot](https://github.com/9t29zhmwdh-coder/MailPilot)** | Local email client that auto-sorts every message with on-device AI; nothing leaves your machine |
+| **[BugRadar](https://github.com/9t29zhmwdh-coder/BugRadar)** | Live watch over logs, containers and metrics; groups anomalies into incidents with AI root-cause fixes |
 
 ### Rust CLI & Backend
 
 | Project | Description |
 |---|---|
-| **[LogLens](https://github.com/9t29zhmwdh-coder/LogLens)** | AI log aggregator: clustering, anomaly detection, FTS |
-| **[StateForge](https://github.com/9t29zhmwdh-coder/StateForge)** | State machine analyzer: parse, visualize, generate |
-| **[agent-governance-console](https://github.com/9t29zhmwdh-coder/agent-governance-console)** | AI agent governance, tracing & audit: Axum, OpenTelemetry, Azure Monitor / Sentinel |
-| **[private-model-orchestrator](https://github.com/9t29zhmwdh-coder/private-model-orchestrator)** | Privacy-first foundation model orchestration for Apple device fleets |
+| **[LogLens](https://github.com/9t29zhmwdh-coder/LogLens)** | Collects and searches logs from files, Docker and system, clusters errors and explains them with local AI |
+| **[StateForge](https://github.com/9t29zhmwdh-coder/StateForge)** | Extracts state machines from code, logs or plain-language descriptions, draws them as diagrams and regenerates clean code |
+| **[agent-governance-console](https://github.com/9t29zhmwdh-coder/agent-governance-console)** | Ingests AI-agent execution traces, enforces governance policies per step and writes immutable audit records; exports to Azure Monitor and Sentinel |
+| **[private-model-orchestrator](https://github.com/9t29zhmwdh-coder/private-model-orchestrator)** | Deploys, versions and serves on-device Core ML models across managed Apple fleets; no data leaves the device |
 
 ### Swift for macOS & iOS
 
 | Project | Description |
 |---|---|
-| **[SwiftAgent](https://github.com/9t29zhmwdh-coder/SwiftAgent)** | Native iOS AI chat interface: local model integration |
-| **[CodeWhisper](https://github.com/9t29zhmwdh-coder/CodeWhisper)** | macOS AI code assistant with NSServices integration |
+| **[SwiftAgent](https://github.com/9t29zhmwdh-coder/SwiftAgent)** | Dependency-free Swift framework for running local LLM agents (Ollama, llama.cpp) via async/await |
+| **[CodeWhisper](https://github.com/9t29zhmwdh-coder/CodeWhisper)** | macOS assistant: select code in any editor, right-click to explain or refactor it with local AI |
 
 ### C# + WPF Windows Tools
 
@@ -96,10 +96,10 @@ Static analysis & attack simulation for GitHub Actions workflows: script injecti
 
 | Project | Description |
 |---|---|
-| **[SiliconMark](https://github.com/9t29zhmwdh-coder/SiliconMark)** | Apple Silicon LLM benchmark suite: Token/s, RAM, ANE |
+| **[SiliconMark](https://github.com/9t29zhmwdh-coder/SiliconMark)** | Benchmarks local LLMs on Apple Silicon: tokens/s, RAM and Neural Engine (ANE) activity per model |
 | **[NetScanX](https://github.com/9t29zhmwdh-coder/NetScanX)** | Cross-platform network discovery & diagnostics CLI |
-| **[GardenFlow](https://github.com/9t29zhmwdh-coder/GardenFlow)** | Modular home garden automation (MQTT, FastAPI, Docker) |
-| **[HomePortal](https://github.com/9t29zhmwdh-coder/HomePortal)** | Self-hosted home services portal (FastAPI, Docker) |
+| **[GardenFlow](https://github.com/9t29zhmwdh-coder/GardenFlow)** | Home garden automation: reads sensors over MQTT, runs rules and controls pumps via a live dashboard |
+| **[HomePortal](https://github.com/9t29zhmwdh-coder/HomePortal)** | Lightweight self-hosted start page and dashboard for a NAS or home server (FastAPI, Docker) |
 | **[azure-cost-forecasting-engine](https://github.com/9t29zhmwdh-coder/azure-cost-forecasting-engine)** | Azure cost analysis, forecasting and optimization recommendations via Consumption API |
 | **[eventhub-otlp-mapper](https://github.com/9t29zhmwdh-coder/eventhub-otlp-mapper)** | Map Azure EventHub messages to OpenTelemetry Traces and Metrics (OTLP, JSON/Avro/Protobuf, Azure Monitor) |
 
