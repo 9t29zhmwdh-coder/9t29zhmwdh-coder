@@ -6,7 +6,7 @@
   **ICT Infrastructure Engineer · Developer Tools Creator · Open Source**
 
   Workplace Engineer @ [novosys.ch](https://www.novosys.ch)  
-  Building tools for practical problems. Everything runs local. Everything offline-first.
+  I build practical tools and use AI deliberately: local-first by default, cloud only where it earns its place. Everything governed, tested and verifiable.
 </div>
 
 ![Rust](https://img.shields.io/badge/Rust-CE422B?logo=rust&logoColor=white) ![C#](https://img.shields.io/badge/C%23-239120?logo=dotnet&logoColor=white) ![Swift](https://img.shields.io/badge/Swift-F05138?logo=swift&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) ![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?logo=powershell&logoColor=white) ![Microsoft 365](https://img.shields.io/badge/Microsoft-M365-0078d4?logo=microsoft&logoColor=white) ![Azure](https://img.shields.io/badge/Microsoft-Azure-0078d4?logo=microsoftazure&logoColor=white) ![Entra ID](https://img.shields.io/badge/Microsoft-Entra_ID-0078d4?logo=microsoftazure&logoColor=white) ![Apple Silicon](https://img.shields.io/badge/Apple-Silicon-000000?logo=apple&logoColor=white) ![AI | Claude Code](https://img.shields.io/badge/AI-Claude_Code-black?logo=anthropic&logoColor=white) ![AI | Copilot](https://img.shields.io/badge/AI-Copilot-black?logo=github&logoColor=white) ![AI | Ollama](https://img.shields.io/badge/AI-Ollama-black?logo=ollama&logoColor=white)
@@ -64,26 +64,26 @@ Static analysis & attack simulation for GitHub Actions workflows: script injecti
 | **[LifePlanner](https://github.com/9t29zhmwdh-coder/LifePlanner)** | Offline AI life planner: events, tasks, goals |
 | **[LifeSort](https://github.com/9t29zhmwdh-coder/LifeSort)** | AI-powered file organizer: rules, duplicates, automation |
 | **[CleanFlow](https://github.com/9t29zhmwdh-coder/CleanFlow)** | Smart disk cleanup: temp files, caches, duplicates |
-| **[ClarityDesk](https://github.com/9t29zhmwdh-coder/ClarityDesk)** | Universal display interpreter: OCR + local AI |
-| **[DeviceHealth](https://github.com/9t29zhmwdh-coder/DeviceHealth)** | Cross-platform system health monitor |
-| **[MailPilot](https://github.com/9t29zhmwdh-coder/MailPilot)** | Offline-first email client with AI classification |
-| **[BugRadar](https://github.com/9t29zhmwdh-coder/BugRadar)** | Real-time log analysis & AI-driven incident detection |
+| **[ClarityDesk](https://github.com/9t29zhmwdh-coder/ClarityDesk)** | Captures the screen, reads text with OCR and explains it with local AI (translate, explain code, analyze logs) |
+| **[DeviceHealth](https://github.com/9t29zhmwdh-coder/DeviceHealth)** | Scans processes, hardware and network, spots problems and explains the fix in plain language, fully offline |
+| **[MailPilot](https://github.com/9t29zhmwdh-coder/MailPilot)** | Local email client that auto-sorts every message with on-device AI; nothing leaves your machine |
+| **[BugRadar](https://github.com/9t29zhmwdh-coder/BugRadar)** | Live watch over logs, containers and metrics; groups anomalies into incidents with AI root-cause fixes |
 
 ### Rust CLI & Backend
 
 | Project | Description |
 |---|---|
-| **[LogLens](https://github.com/9t29zhmwdh-coder/LogLens)** | AI log aggregator: clustering, anomaly detection, FTS |
-| **[StateForge](https://github.com/9t29zhmwdh-coder/StateForge)** | State machine analyzer: parse, visualize, generate |
-| **[agent-governance-console](https://github.com/9t29zhmwdh-coder/agent-governance-console)** | AI agent governance, tracing & audit: Axum, OpenTelemetry, Azure Monitor / Sentinel |
-| **[private-model-orchestrator](https://github.com/9t29zhmwdh-coder/private-model-orchestrator)** | Privacy-first foundation model orchestration for Apple device fleets |
+| **[LogLens](https://github.com/9t29zhmwdh-coder/LogLens)** | Collects and searches logs from files, Docker and system, clusters errors and explains them with local AI |
+| **[StateForge](https://github.com/9t29zhmwdh-coder/StateForge)** | Extracts state machines from code, logs or plain-language descriptions, draws them as diagrams and regenerates clean code |
+| **[agent-governance-console](https://github.com/9t29zhmwdh-coder/agent-governance-console)** | Ingests AI-agent execution traces, enforces governance policies per step and writes immutable audit records; exports to Azure Monitor and Sentinel |
+| **[private-model-orchestrator](https://github.com/9t29zhmwdh-coder/private-model-orchestrator)** | Deploys, versions and serves on-device Core ML models across managed Apple fleets; no data leaves the device |
 
 ### Swift for macOS & iOS
 
 | Project | Description |
 |---|---|
-| **[SwiftAgent](https://github.com/9t29zhmwdh-coder/SwiftAgent)** | Native iOS AI chat interface: local model integration |
-| **[CodeWhisper](https://github.com/9t29zhmwdh-coder/CodeWhisper)** | macOS AI code assistant with NSServices integration |
+| **[SwiftAgent](https://github.com/9t29zhmwdh-coder/SwiftAgent)** | Dependency-free Swift framework for running local LLM agents (Ollama, llama.cpp) via async/await |
+| **[CodeWhisper](https://github.com/9t29zhmwdh-coder/CodeWhisper)** | macOS assistant: select code in any editor, right-click to explain or refactor it with local AI |
 
 ### C# + WPF Windows Tools
 
@@ -96,10 +96,10 @@ Static analysis & attack simulation for GitHub Actions workflows: script injecti
 
 | Project | Description |
 |---|---|
-| **[SiliconMark](https://github.com/9t29zhmwdh-coder/SiliconMark)** | Apple Silicon LLM benchmark suite: Token/s, RAM, ANE |
+| **[SiliconMark](https://github.com/9t29zhmwdh-coder/SiliconMark)** | Benchmarks local LLMs on Apple Silicon: tokens/s, RAM and Neural Engine (ANE) activity per model |
 | **[NetScanX](https://github.com/9t29zhmwdh-coder/NetScanX)** | Cross-platform network discovery & diagnostics CLI |
-| **[GardenFlow](https://github.com/9t29zhmwdh-coder/GardenFlow)** | Modular home garden automation (MQTT, FastAPI, Docker) |
-| **[HomePortal](https://github.com/9t29zhmwdh-coder/HomePortal)** | Self-hosted home services portal (FastAPI, Docker) |
+| **[GardenFlow](https://github.com/9t29zhmwdh-coder/GardenFlow)** | Home garden automation: reads sensors over MQTT, runs rules and controls pumps via a live dashboard |
+| **[HomePortal](https://github.com/9t29zhmwdh-coder/HomePortal)** | Lightweight self-hosted start page and dashboard for a NAS or home server (FastAPI, Docker) |
 | **[azure-cost-forecasting-engine](https://github.com/9t29zhmwdh-coder/azure-cost-forecasting-engine)** | Azure cost analysis, forecasting and optimization recommendations via Consumption API |
 | **[eventhub-otlp-mapper](https://github.com/9t29zhmwdh-coder/eventhub-otlp-mapper)** | Map Azure EventHub messages to OpenTelemetry Traces and Metrics (OTLP, JSON/Avro/Protobuf, Azure Monitor) |
 
@@ -137,8 +137,12 @@ comparing them against cloud APIs, integrated directly into my own tools.
   drafting, research and hands-on testing of Microsoft AI features on Windows on ARM
 
 **Integration & testing:**
-- All my tools with AI features (LifePlanner, LogLens, MailPilot, CodeWhisper and others) support
-  both local Ollama models and cloud APIs
+- All my tools with AI features (LifePlanner, LogLens, MailPilot, CodeWhisper and others) speak the
+  same OpenAI-compatible interface for both local Ollama models and cloud APIs
+- No local GPU? Point any tool at a free cloud tier (Google AI Studio, Groq, Mistral, OpenRouter)
+  through that same interface, no code change; switch back to local Ollama when privacy matters
+- The tools expose the local-vs-cloud choice instead of forcing it, so the setup fits the need,
+  not a dogma
 - The goal: find where a well-tuned local model is good enough and where cloud capability
   actually justifies the tradeoff
 
