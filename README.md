@@ -137,8 +137,12 @@ comparing them against cloud APIs, integrated directly into my own tools.
   drafting, research and hands-on testing of Microsoft AI features on Windows on ARM
 
 **Integration & testing:**
-- All my tools with AI features (LifePlanner, LogLens, MailPilot, CodeWhisper and others) support
-  both local Ollama models and cloud APIs
+- All my tools with AI features (LifePlanner, LogLens, MailPilot, CodeWhisper and others) speak the
+  same OpenAI-compatible interface for both local Ollama models and cloud APIs
+- No local GPU? Point any tool at a free cloud tier (Google AI Studio, Groq, Mistral, OpenRouter)
+  through that same interface, no code change; switch back to local Ollama when privacy matters
+- The tools expose the local-vs-cloud choice instead of forcing it, so the setup fits the need,
+  not a dogma
 - The goal: find where a well-tuned local model is good enough and where cloud capability
   actually justifies the tradeoff
 

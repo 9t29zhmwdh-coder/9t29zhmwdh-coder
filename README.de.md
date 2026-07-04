@@ -136,8 +136,13 @@ Lokales AI-Lab auf Apple Silicon (Laptop und Desktop): Open-Source-Modelle werde
   für Entwürfe, Recherche und praxisnahe Tests von Microsoft-KI-Features auf Windows on ARM
 
 **Integration & Testing:**
-- Alle meine Tools mit KI-Funktionen (LifePlanner, LogLens, MailPilot, CodeWhisper u.a.) unterstützen
-  sowohl lokale Ollama-Modelle als auch Cloud-APIs
+- Alle meine Tools mit KI-Funktionen (LifePlanner, LogLens, MailPilot, CodeWhisper u.a.) sprechen
+  über dieselbe OpenAI-kompatible Schnittstelle sowohl lokale Ollama-Modelle als auch Cloud-APIs an
+- Keine lokale GPU? Einfach ein kostenloses Cloud-Kontingent (Google AI Studio, Groq, Mistral,
+  OpenRouter) über genau diese Schnittstelle nutzen, ohne Code-Änderung; für Datenschutz zurück auf
+  lokales Ollama
+- Die Tools legen die Wahl lokal vs. Cloud offen, statt sie vorzugeben, so passt das Setup zum
+  Bedarf und nicht zu einem Dogma
 - Ziel: herausfinden, wo ein gut eingestelltes lokales Modell ausreicht und wo Cloud-Kapazität
   den Kompromiss tatsächlich rechtfertigt
 
