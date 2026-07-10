@@ -11,20 +11,20 @@
 
 ![Rust](https://img.shields.io/badge/Rust-CE422B?logo=rust&logoColor=white) ![C#](https://img.shields.io/badge/C%23-239120?logo=dotnet&logoColor=white) ![Swift](https://img.shields.io/badge/Swift-F05138?logo=swift&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) ![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?logo=powershell&logoColor=white) ![Microsoft 365](https://img.shields.io/badge/Microsoft-M365-0078d4?logo=microsoft&logoColor=white) ![Azure](https://img.shields.io/badge/Microsoft-Azure-0078d4?logo=microsoftazure&logoColor=white) ![Entra ID](https://img.shields.io/badge/Microsoft-Entra_ID-0078d4?logo=microsoftazure&logoColor=white) ![Apple Silicon](https://img.shields.io/badge/Apple-Silicon-000000?logo=apple&logoColor=white) ![AI | Claude Code](https://img.shields.io/badge/AI-Claude_Code-black?logo=anthropic&logoColor=white) ![AI | Copilot](https://img.shields.io/badge/AI-Copilot-black?logo=github&logoColor=white) ![AI | Ollama](https://img.shields.io/badge/AI-Ollama-black?logo=ollama&logoColor=white)
 
-> 🇩🇪 [Deutsche Version](README.de.md)
+[🇩🇪 Deutsche Version](README.de.md)
 
 ---
 
 ## Featured
 
-**[agent-governance-console](https://github.com/9t29zhmwdh-coder/agent-governance-console)** [![CI](https://github.com/9t29zhmwdh-coder/agent-governance-console/actions/workflows/ci.yml/badge.svg)](https://github.com/9t29zhmwdh-coder/agent-governance-console/actions) [![Release](https://img.shields.io/github/v/release/9t29zhmwdh-coder/agent-governance-console?color=3F8E7E)](https://github.com/9t29zhmwdh-coder/agent-governance-console/releases)  
-Enterprise governance & audit for AI agent workflows. Built with Rust/Axum, OpenTelemetry, Azure Monitor, Microsoft Sentinel and Entra ID.
+**[NetSweep](https://github.com/9t29zhmwdh-coder/NetSweep)** [![CI](https://github.com/9t29zhmwdh-coder/NetSweep/actions/workflows/build.yml/badge.svg)](https://github.com/9t29zhmwdh-coder/NetSweep/actions) [![Release](https://img.shields.io/github/v/release/9t29zhmwdh-coder/NetSweep?color=3F8E7E)](https://github.com/9t29zhmwdh-coder/NetSweep/releases)  
+Network storage audit & cleanup for NAS, SharePoint and DFS. Ships a signed Windows installer, download and run.
 
-**[entra-least-privilege-analyzer](https://github.com/9t29zhmwdh-coder/entra-least-privilege-analyzer)** [![CI](https://github.com/9t29zhmwdh-coder/entra-least-privilege-analyzer/actions/workflows/ci.yml/badge.svg)](https://github.com/9t29zhmwdh-coder/entra-least-privilege-analyzer/actions) [![Release](https://img.shields.io/github/v/release/9t29zhmwdh-coder/entra-least-privilege-analyzer?color=3F8E7E)](https://github.com/9t29zhmwdh-coder/entra-least-privilege-analyzer/releases)  
-Read-only Entra ID privilege analysis: over-privileged accounts, role overlap, PIM gaps. Ships a bring-your-own-token mode for portal integration.
+**[MailPilot](https://github.com/9t29zhmwdh-coder/MailPilot)** [![CI](https://github.com/9t29zhmwdh-coder/MailPilot/actions/workflows/ci.yml/badge.svg)](https://github.com/9t29zhmwdh-coder/MailPilot/actions) [![Release](https://img.shields.io/github/v/release/9t29zhmwdh-coder/MailPilot?color=3F8E7E)](https://github.com/9t29zhmwdh-coder/MailPilot/releases)  
+Local AI email organizer for macOS: on-device classification, IMAP sync, nothing leaves the machine. macOS installer on the Releases page.
 
-**[github-actions-security-sandbox](https://github.com/9t29zhmwdh-coder/github-actions-security-sandbox)** [![CI](https://github.com/9t29zhmwdh-coder/github-actions-security-sandbox/actions/workflows/ci.yml/badge.svg)](https://github.com/9t29zhmwdh-coder/github-actions-security-sandbox/actions) [![Release](https://img.shields.io/github/v/release/9t29zhmwdh-coder/github-actions-security-sandbox?color=3F8E7E)](https://github.com/9t29zhmwdh-coder/github-actions-security-sandbox/releases)  
-Static analysis & attack simulation for GitHub Actions workflows: script injection, Pwn Request, secret exposure, unpinned actions.
+**[LifePlanner](https://github.com/9t29zhmwdh-coder/LifePlanner)** [![CI](https://github.com/9t29zhmwdh-coder/LifePlanner/actions/workflows/ci.yml/badge.svg)](https://github.com/9t29zhmwdh-coder/LifePlanner/actions) [![Release](https://img.shields.io/github/v/release/9t29zhmwdh-coder/LifePlanner?color=3F8E7E)](https://github.com/9t29zhmwdh-coder/LifePlanner/releases)  
+Fully offline AI life planner: events, tasks and deadlines, extracted from plain text. macOS and Windows installers on the Releases page.
 
 
 ## How I Work
