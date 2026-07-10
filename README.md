@@ -17,7 +17,7 @@
 
 ## Featured
 
-**[NetSweep](https://github.com/9t29zhmwdh-coder/NetSweep)** [![CI](https://github.com/9t29zhmwdh-coder/NetSweep/actions/workflows/build.yml/badge.svg)](https://github.com/9t29zhmwdh-coder/NetSweep/actions) [![Release](https://img.shields.io/github/v/release/9t29zhmwdh-coder/NetSweep?color=3F8E7E)](https://github.com/9t29zhmwdh-coder/NetSweep/releases)  
+**[NetSweep](https://github.com/9t29zhmwdh-coder/NetSweep)** [![CI](https://github.com/9t29zhmwdh-coder/NetSweep/actions/workflows/ci.yml/badge.svg)](https://github.com/9t29zhmwdh-coder/NetSweep/actions) [![Release](https://img.shields.io/github/v/release/9t29zhmwdh-coder/NetSweep?color=3F8E7E)](https://github.com/9t29zhmwdh-coder/NetSweep/releases)  
 Network storage audit & cleanup for NAS, SharePoint and DFS. Ships a signed Windows installer, download and run.
 
 **[MailPilot](https://github.com/9t29zhmwdh-coder/MailPilot)** [![CI](https://github.com/9t29zhmwdh-coder/MailPilot/actions/workflows/ci.yml/badge.svg)](https://github.com/9t29zhmwdh-coder/MailPilot/actions) [![Release](https://img.shields.io/github/v/release/9t29zhmwdh-coder/MailPilot?color=3F8E7E)](https://github.com/9t29zhmwdh-coder/MailPilot/releases)  
