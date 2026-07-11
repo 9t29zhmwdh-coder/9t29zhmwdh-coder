@@ -1,172 +1,62 @@
 <div align="center">
-  <img src="RayStudio.png" alt="RayStudio" width="100"/>
+  <img src="RayStudio.png" alt="RayStudio" width="90"/>
 
-  ## Hey, ich bin Rafael
-
+  # Rafael Yilmaz
 </div>
 
-**ICT Infrastructure Engineer · Developer Tools Creator · Open Source**
+🇬🇧 [English Version](README.md)
 
-Workplace Engineer @ [novosys.ch](https://www.novosys.ch)  
-Ich baue praxisnahe Tools und setze KI bewusst ein: local-first als Standard, Cloud nur da, wo sie es wirklich wert ist. Alles geregelt, getestet und nachprüfbar.
+## Über mich
 
-![Rust](https://img.shields.io/badge/Rust-CE422B?logo=rust&logoColor=white) ![C#](https://img.shields.io/badge/C%23-239120?logo=dotnet&logoColor=white) ![Swift](https://img.shields.io/badge/Swift-F05138?logo=swift&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) ![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?logo=powershell&logoColor=white) ![Microsoft 365](https://img.shields.io/badge/Microsoft-M365-0078d4?logo=microsoft&logoColor=white) ![Azure](https://img.shields.io/badge/Microsoft-Azure-0078d4?logo=microsoftazure&logoColor=white) ![Entra ID](https://img.shields.io/badge/Microsoft-Entra_ID-0078d4?logo=microsoftazure&logoColor=white) ![Apple Silicon](https://img.shields.io/badge/Apple-Silicon-000000?logo=apple&logoColor=white) ![AI | Claude Code](https://img.shields.io/badge/AI-Claude_Code-black?logo=anthropic&logoColor=white) ![AI | Copilot](https://img.shields.io/badge/AI-Copilot-black?logo=github&logoColor=white) ![AI | Ollama](https://img.shields.io/badge/AI-Ollama-black?logo=ollama&logoColor=white)
+ICT Infrastructure Engineer bei [novosys.ch](https://www.novosys.ch), ich baue local-first Developer-Tools in Rust, Swift und Python. Ich setze KI bewusst ein: lokale Modelle als Standard, Cloud nur da, wo sie es wirklich wert ist, jedes Repo folgt denselben publizierten Engineering-Standards.
 
-[🇬🇧 English Version](README.md)
+## Woran ich gerade arbeite
 
----
+- **[NetSweep](https://github.com/9t29zhmwdh-coder/NetSweep)**: Netzlaufwerk-Audit und -Cleanup für NAS, SharePoint und DFS, mit signiertem Windows-Installer.
+- **[MailPilot](https://github.com/9t29zhmwdh-coder/MailPilot)**: lokaler KI-E-Mail-Organizer für macOS, On-Device-Klassifikation, nichts verlässt das Gerät.
+- **[LifePlanner](https://github.com/9t29zhmwdh-coder/LifePlanner)**: vollständig offline KI-Lebensplaner, Termine und Aufgaben aus reinem Text extrahiert.
+- **[BugRadar](https://github.com/9t29zhmwdh-coder/BugRadar)**: Live-Log-/Metrik-Beobachtung, gruppiert Anomalien zu Incidents mit KI-Root-Cause-Analyse.
 
-## Ausgewählte Projekte
+## Pinned Projects
 
-**[NetSweep](https://github.com/9t29zhmwdh-coder/NetSweep)** [![CI](https://github.com/9t29zhmwdh-coder/NetSweep/actions/workflows/ci.yml/badge.svg)](https://github.com/9t29zhmwdh-coder/NetSweep/actions) [![Release](https://img.shields.io/github/v/release/9t29zhmwdh-coder/NetSweep?color=3F8E7E)](https://github.com/9t29zhmwdh-coder/NetSweep/releases)  
-Speicher-Audit & Bereinigung für NAS, SharePoint und DFS. Signierter Windows-Installer, herunterladen und starten.
-
-**[MailPilot](https://github.com/9t29zhmwdh-coder/MailPilot)** [![CI](https://github.com/9t29zhmwdh-coder/MailPilot/actions/workflows/ci.yml/badge.svg)](https://github.com/9t29zhmwdh-coder/MailPilot/actions) [![Release](https://img.shields.io/github/v/release/9t29zhmwdh-coder/MailPilot?color=3F8E7E)](https://github.com/9t29zhmwdh-coder/MailPilot/releases)  
-Lokaler KI-Mail-Organizer für macOS: On-Device-Klassifizierung, IMAP-Sync, nichts verlässt den Rechner. macOS-Installer auf der Releases-Seite.
-
-**[LifePlanner](https://github.com/9t29zhmwdh-coder/LifePlanner)** [![CI](https://github.com/9t29zhmwdh-coder/LifePlanner/actions/workflows/ci.yml/badge.svg)](https://github.com/9t29zhmwdh-coder/LifePlanner/actions) [![Release](https://img.shields.io/github/v/release/9t29zhmwdh-coder/LifePlanner?color=3F8E7E)](https://github.com/9t29zhmwdh-coder/LifePlanner/releases)  
-Vollständig offline KI-Lebensplaner: Termine, Aufgaben und Fristen, aus reinem Text extrahiert. macOS- und Windows-Installer auf der Releases-Seite.
-
-
-## Wie ich arbeite
-
-- Jedes öffentliche Repo folgt meinen publizierten [Engineering-Standards](https://github.com/9t29zhmwdh-coder/engineering-standards): Security-First-Checklisten, Testing-Strategie, semantische Releases.
-- Branch Protection ist auf jedem Repo technisch per GitHub Rulesets erzwungen (kein Direct-Push, PR-Pflicht, kein Force-Push), auch gegen mich selbst.
-- KI-gestützte Entwicklung (Claude Code, Copilot) unterliegt diesen Standards, nicht umgekehrt.
-- Releases werden vor Veröffentlichung verifiziert: Builds, Test-Suiten und funktionale Smoke-Tests stehen dokumentiert in den Release Notes.
-
-**Versionierung.** Jedes Repo folgt [Semantic Versioning](https://semver.org) (`MAJOR.MINOR.PATCH`), mit einer Verschärfung gegenüber der Spezifikation: `MAJOR`/`v1.0.0` ist ausschließlich einem wirklich fertigen, installierbaren oder lauffähigen Produkt vorbehalten (echter Installer, gepackte App oder Docker-Image), nicht nur "feature-complete im Quellcode". Ein reines CLI-Tool bleibt unter `v1.0.0`, egal wie vollständig es funktional ist. `PATCH` deckt Fixes und Doku ab, `MINOR` neue Features. Vollständige Regel in [engineering-standards](https://github.com/9t29zhmwdh-coder/engineering-standards/blob/main/CLAUDE.md), Abschnitt 3.
-
-**Änderungs-Workflow.** Jede Änderung, auch eine reine Doku-Korrektur, durchläuft dieselbe Abfolge: Branch, Commit, Push, Pull Request, CI-Checks, Merge (Squash), Tag, GitHub Release mit Notes, keine Abkürzungen, auch nicht bei kleinen Fixes. Merge-Risiko wird explizit behandelt: niedriges Risiko (Doku, CI-Config, Tests) wird selbst gemergt und danach gemeldet; alles mit Business-Logik, Security- oder Secrets-Bezug wartet auf eine bewusste Prüfung vor dem Merge, auch bei einem Solo-betreuten Repo.
-
----
-## Womit ich arbeite
-
-### Infrastruktur & Automatisierung
-- **Netzwerk:** Ubiquiti UniFi (Cloud Gateway, UDM Pro, WiFi 6/7)
-- **Automatisierung:** Home Assistant, Raspberry Pi, Zigbee, Matter, Z-Wave
-- **Storage:** Synology/UGREEN NAS, Microsoft 365, Exchange Online
-- **Geräte:** Apple Silicon (macOS), Surface Laptop 7 (Snapdragon X Elite, Windows 11), Linux-Server
-
-### Entwicklungs-Stack
-
-| Bereich | Technologie |
+| Projekt | Was es macht |
 |---|---|
-| **Desktop-Apps** | Rust + Tauri, C# + WPF (.NET 8), Swift (macOS/iOS) |
-| **Web/Frontend** | TypeScript, React, Tailwind CSS |
-| **Backend** | Rust async (Tokio), Python, PowerShell 7 |
-| **Daten** | SQLite mit FTS5, PostgreSQL |
-| **KI** | Ollama (lokal), Qwen 3.5, Claude Code, Copilot CoWork, Windows Copilot |
-| **IDE / Tools** | Visual Studio 2022, Visual Studio Code, Xcode, Windows Terminal |
-| **DevOps** | Git/GitHub, Docker, GitHub Actions |
+| **[private-model-orchestrator](https://github.com/9t29zhmwdh-coder/private-model-orchestrator)** | Verteilt und verwaltet On-Device Core-ML-Modelle über Apple-Geräteflotten |
+| **[NetScanX](https://github.com/9t29zhmwdh-coder/NetScanX)** | Cross-Platform Netzwerk-Discovery- und Diagnose-CLI, Asset-Inventar, Drift-Detection |
+| **[entra-access-graph-engine](https://github.com/9t29zhmwdh-coder/entra-access-graph-engine)** | Mappt Entra-ID-Privilegien-Graphen, erkennt Eskalationspfade und versteckte Admin-Ketten |
+| **[SwiftAgent](https://github.com/9t29zhmwdh-coder/SwiftAgent)** | Abhängigkeitsfreies Swift-Framework für lokale LLM-Agenten |
+| **[CleanFlow](https://github.com/9t29zhmwdh-coder/CleanFlow)** | KI-gestützter Datei-Organizer mit regelbasierter Cleanup-Automatisierung |
+| **[engineering-standards](https://github.com/9t29zhmwdh-coder/engineering-standards)** | Die Security-First-Standards, die jedes Repo in diesem Portfolio regeln |
 
-## Projekte
+Alle Repositories: [vollständige Liste](https://github.com/9t29zhmwdh-coder?tab=repositories).
 
-### Rust + Tauri Desktop-Apps
+## Tech Focus
 
-| Projekt | Beschreibung |
-|---|---|
-| **[LifePlanner](https://github.com/9t29zhmwdh-coder/LifePlanner)** | Offline KI-Lebensplaner: Termine, Aufgaben und Ziele |
-| **[LifeSort](https://github.com/9t29zhmwdh-coder/LifeSort)** | AI-File-Organizer: Regeln, Duplikate, Automatisierung |
-| **[CleanFlow](https://github.com/9t29zhmwdh-coder/CleanFlow)** | Smart Disk Cleanup: Temp-Dateien, Caches, Duplikate |
-| **[ClarityDesk](https://github.com/9t29zhmwdh-coder/ClarityDesk)** | Erfasst den Bildschirm, liest Text per OCR aus und erklärt ihn mit lokaler KI (übersetzen, Code erklären, Logs analysieren) |
-| **[DeviceHealth](https://github.com/9t29zhmwdh-coder/DeviceHealth)** | Prüft Prozesse, Hardware und Netzwerk, erkennt Probleme und erklärt die Lösung in Klartext, komplett offline |
-| **[MailPilot](https://github.com/9t29zhmwdh-coder/MailPilot)** | Lokaler E-Mail-Client, der jede Nachricht mit KI auf dem Gerät einsortiert; nichts verlässt den Rechner |
-| **[BugRadar](https://github.com/9t29zhmwdh-coder/BugRadar)** | Überwacht Logs, Container und Metriken live, bündelt Anomalien zu Incidents mit KI-Ursachenanalyse |
+- **Sprachen:** Rust, Swift, C#, Python, TypeScript
+- **Plattformen:** Apple Silicon (macOS), Windows (.NET 8 / WPF), Microsoft 365, Azure
+- **KI:** Lokale Inferenz (Ollama, llama.cpp), Claude Code, GitHub Copilot
+- **Praktiken:** Semantic Versioning, erzwungene Branch-Protection, Security-First-CI/CD
 
-### Rust CLI & Backend
+## Wie dieses Portfolio funktioniert
 
-| Projekt | Beschreibung |
-|---|---|
-| **[LogLens](https://github.com/9t29zhmwdh-coder/LogLens)** | Sammelt und durchsucht Logs aus Dateien, Docker und System, clustert Fehler und erklärt sie mit lokaler KI |
-| **[StateForge](https://github.com/9t29zhmwdh-coder/StateForge)** | Extrahiert State Machines aus Code, Logs oder Textbeschreibungen, zeichnet sie als Diagramme und generiert sauberen Code |
-| **[agent-governance-console](https://github.com/9t29zhmwdh-coder/agent-governance-console)** | Nimmt Ausführungs-Traces von KI-Agenten auf, erzwingt Governance-Policies pro Schritt und schreibt unveränderliche Audit-Records; Export nach Azure Monitor und Sentinel |
-| **[private-model-orchestrator](https://github.com/9t29zhmwdh-coder/private-model-orchestrator)** | Verteilt, versioniert und betreibt Core-ML-Modelle direkt auf verwalteten Apple-Flotten; keine Daten verlassen das Gerät |
+```
+repo/
+├── src/                  das eigentliche Tool
+├── CLAUDE.md              KI-Pair-Programmer-Instruktionen (aus engineering-standards)
+├── ROADMAP.md             was fertig ist, was als Nächstes kommt
+├── SECURITY.md            Schwachstellen-Meldung, Security-Design
+└── .github/workflows/     CI: Lint, Test, Security-Audit, Release
+```
 
-### Swift für macOS & iOS
-
-| Projekt | Beschreibung |
-|---|---|
-| **[SwiftAgent](https://github.com/9t29zhmwdh-coder/SwiftAgent)** | Abhängigkeitsfreies Swift-Framework für lokale LLM-Agenten (Ollama, llama.cpp) via async/await |
-| **[CodeWhisper](https://github.com/9t29zhmwdh-coder/CodeWhisper)** | macOS-Assistent: Code in jedem Editor markieren, per Rechtsklick mit lokaler KI erklären oder umbauen |
-
-### C# + WPF Windows-Tools
-
-| Projekt | Beschreibung |
-|---|---|
-| **[NetSweep](https://github.com/9t29zhmwdh-coder/NetSweep)** | Netzwerkspeicher-Audit und Bereinigung: NAS, SharePoint, DFS |
-| **[NetDashboard](https://github.com/9t29zhmwdh-coder/NetDashboard)** | Netzwerk- und Mail-Diagnose: DNS, M365/Exchange Online |
-
-### Python
-
-| Projekt | Beschreibung |
-|---|---|
-| **[SiliconMark](https://github.com/9t29zhmwdh-coder/SiliconMark)** | Benchmarkt lokale LLMs auf Apple Silicon: Token/s, RAM und Neural-Engine-Aktivität (ANE) pro Modell |
-| **[NetScanX](https://github.com/9t29zhmwdh-coder/NetScanX)** | Plattformübergreifende Netzwerk-Discovery und Diagnose-CLI |
-| **[GardenFlow](https://github.com/9t29zhmwdh-coder/GardenFlow)** | Heimgarten-Automatisierung: liest Sensoren via MQTT, wendet Regeln an und steuert Pumpen über ein Live-Dashboard |
-| **[HomePortal](https://github.com/9t29zhmwdh-coder/HomePortal)** | Leichtgewichtige, selbst gehostete Startseite und Dashboard für NAS oder Heimserver (FastAPI, Docker) |
-| **[azure-cost-forecasting-engine](https://github.com/9t29zhmwdh-coder/azure-cost-forecasting-engine)** | Azure Kostenanalyse, Prognose und Optimierungsempfehlungen über die Consumption API |
-| **[eventhub-otlp-mapper](https://github.com/9t29zhmwdh-coder/eventhub-otlp-mapper)** | Wandelt Azure-EventHub-Nachrichten in OpenTelemetry-Traces und -Metriken (OTLP, JSON/Avro/Protobuf, Azure Monitor) |
-
-### Infrastruktur & Security
-
-| Projekt | Beschreibung |
-|---|---|
-| **[entra-access-graph-engine](https://github.com/9t29zhmwdh-coder/entra-access-graph-engine)** | Entra-ID-Berechtigungs-Graph: erkennt Eskalationspfade, versteckte Admin-Ketten und Risk-Scores (Rust, Graph API) |
-| **[entra-least-privilege-analyzer](https://github.com/9t29zhmwdh-coder/entra-least-privilege-analyzer)** | Read-only Rust CLI zur Entra ID Berechtigungsanalyse, PIM-Lückenerkennung und Rollen-Overlap-Auswertung |
-| **[azure-policy-drift-detector](https://github.com/9t29zhmwdh-coder/azure-policy-drift-detector)** | Read-only Rust CLI zur Erkennung von Azure Policy Drift, Priorisierung nicht-konformer Ressourcen und Erstellung von Behebungsberichten |
-| **[github-actions-security-sandbox](https://github.com/9t29zhmwdh-coder/github-actions-security-sandbox)** | Statische Analyse und Angriffssimulation für GitHub Actions Workflows: Injection, Pwn Request, ungepinnte Actions |
-| **[engineering-standards](https://github.com/9t29zhmwdh-coder/engineering-standards)** | Öffentliche Engineering-Standards für alle meine Repos: Security-First-Checklisten, Testing-Strategie, technisch erzwungene Branch-Protection-Rulesets |
-
----
-
-## AI & LLM Lab
-
-Lokales AI-Lab auf Apple Silicon (Laptop und Desktop): Open-Source-Modelle werden getestet und direkt mit Cloud-APIs verglichen, integriert in meine eigenen Tools.
-
-**Lokale Inferenz via Ollama:**
-- Daily Driver: Qwen 3.5 als primäres Modell und persönliche Vergleichsbasis
-- Laufende Tests neuer Releases dagegen: LFM 2.5, Gemma 4, Qwen 2.5 und weitere
-- SiliconMark (mein eigenes Tool) zum Messen von Token/s, RAM-Auslastung und ANE-Aktivität
-
-**Autonome Agenten:**
-- Nous Hermes läuft als 24/7 lokaler Agent für Langzeit-Workflow- und Stabilitätstests
-- Übernimmt mehrstufige Pipelines, Tool-Calling und unbeaufsichtigte Aufgaben vollständig auf dem Gerät
-- qwen3-coder wird als lokaler Coding-Agent im Vergleich zu Cloud-basierten Coding-Tools getestet
-- Claude Code: CLI-basierter KI-Programmier-Partner für Architektur, Code-Review und Multi-File-Refactors.
-  Gesteuert durch meine öffentlichen [Engineering-Standards](https://github.com/9t29zhmwdh-coder/engineering-standards)
-  (Security-First-Regeln, risikobasierte Merge-Policy, Branch Protection via GitHub Rulesets auf jedem Repo erzwungen)
-- Copilot CoWork: GitHub Copilot in Visual Studio, VS Code und JetBrains für Enterprise .NET, WPF, PowerShell und M365-Automatisierung
-- Windows Copilot auf dem Surface Laptop 7 (Snapdragon X Elite, ARM-nativ): täglicher Begleiter
-  für Entwürfe, Recherche und praxisnahe Tests von Microsoft-KI-Features auf Windows on ARM
-
-**Integration & Testing:**
-- Alle meine Tools mit KI-Funktionen (LifePlanner, LogLens, MailPilot, CodeWhisper u.a.) sprechen
-  über dieselbe OpenAI-kompatible Schnittstelle sowohl lokale Ollama-Modelle als auch Cloud-APIs an
-- Keine lokale GPU? Einfach ein kostenloses Cloud-Kontingent (Google AI Studio, Groq, Mistral,
-  OpenRouter) über genau diese Schnittstelle nutzen, ohne Code-Änderung; für Datenschutz zurück auf
-  lokales Ollama
-- Die Tools legen die Wahl lokal vs. Cloud offen, statt sie vorzugeben, so passt das Setup zum
-  Bedarf und nicht zu einem Dogma
-- Ziel: herausfinden, wo ein gut eingestelltes lokales Modell ausreicht und wo Cloud-Kapazität
-  den Kompromiss tatsächlich rechtfertigt
-
----
-
-## Hintergrund
-
-**20+ Jahre** in Logistik & Supply-Chain-Management  
-**3+ Jahre** in ICT-Infrastruktur & Support
-
-Übertragen aus der Logistik-Denkweise: **Systemdenken, Prozessoptimierung, praxisnahes Engineering.**
-
----
+Jedes Repo folgt denselben [Engineering-Standards](https://github.com/9t29zhmwdh-coder/engineering-standards): reiner PR-Merge mit erzwungener Branch-Protection, [Semantic Versioning](https://semver.org) mit einer Verschärfung gegenüber der Spezifikation (`v1.0.0` ist ausschließlich einem wirklich installierbaren oder lauffähigen Produkt vorbehalten, nicht nur "feature-complete im Quellcode"), und eine risikobasierte Merge-Policy, niedriges Risiko wird selbst gemergt und gemeldet, alles mit Business-Logik- oder Security-Bezug wartet auf eine bewusste Prüfung.
 
 ## Kontakt
 
 - **Website:** [raystudio.ch](https://raystudio.ch)
+- **LinkedIn:** [Rafael Yilmaz](https://www.linkedin.com/in/rafael-yilmaz-b38474122/)
+- **E-Mail:** [rafael.yilmaz@icloud.com](mailto:rafael.yilmaz@icloud.com)
 - **Arbeit:** [novosys.ch](https://www.novosys.ch)
 
 ---
 
-**Alle Software-Repos sind Open Source (MIT-Lizenz); [engineering-standards](https://github.com/9t29zhmwdh-coder/engineering-standards) ist Dokumentation, lizenziert unter CC BY 4.0. Issues & PRs willkommen.**
+Alle Software-Repos sind Open Source (MIT-Lizenz); [engineering-standards](https://github.com/9t29zhmwdh-coder/engineering-standards) ist Dokumentation, lizenziert unter CC BY 4.0. Issues & PRs willkommen.
