@@ -35,6 +35,10 @@ Vollständig offline KI-Lebensplaner: Termine, Aufgaben und Fristen, aus reinem 
 - KI-gestützte Entwicklung (Claude Code, Copilot) unterliegt diesen Standards, nicht umgekehrt.
 - Releases werden vor Veröffentlichung verifiziert: Builds, Test-Suiten und funktionale Smoke-Tests stehen dokumentiert in den Release Notes.
 
+**Versionierung.** Jedes Repo folgt [Semantic Versioning](https://semver.org) (`MAJOR.MINOR.PATCH`), mit einer Verschärfung gegenüber der Spezifikation: `MAJOR`/`v1.0.0` ist ausschließlich einem wirklich fertigen, installierbaren oder lauffähigen Produkt vorbehalten (echter Installer, gepackte App oder Docker-Image), nicht nur "feature-complete im Quellcode". Ein reines CLI-Tool bleibt unter `v1.0.0`, egal wie vollständig es funktional ist. `PATCH` deckt Fixes und Doku ab, `MINOR` neue Features. Vollständige Regel in [engineering-standards](https://github.com/9t29zhmwdh-coder/engineering-standards/blob/main/CLAUDE.md), Abschnitt 3.
+
+**Änderungs-Workflow.** Jede Änderung, auch eine reine Doku-Korrektur, durchläuft dieselbe Abfolge: Branch, Commit, Push, Pull Request, CI-Checks, Merge (Squash), Tag, GitHub Release mit Notes, keine Abkürzungen, auch nicht bei kleinen Fixes. Merge-Risiko wird explizit behandelt: niedriges Risiko (Doku, CI-Config, Tests) wird selbst gemergt und danach gemeldet; alles mit Business-Logik, Security- oder Secrets-Bezug wartet auf eine bewusste Prüfung vor dem Merge, auch bei einem Solo-betreuten Repo.
+
 ---
 ## Womit ich arbeite
 
@@ -165,4 +169,4 @@ Lokales AI-Lab auf Apple Silicon (Laptop und Desktop): Open-Source-Modelle werde
 
 ---
 
-**Alle Repos sind Open Source (MIT-Lizenz). Issues & PRs willkommen.**
+**Alle Software-Repos sind Open Source (MIT-Lizenz); [engineering-standards](https://github.com/9t29zhmwdh-coder/engineering-standards) ist Dokumentation, lizenziert unter CC BY 4.0. Issues & PRs willkommen.**
