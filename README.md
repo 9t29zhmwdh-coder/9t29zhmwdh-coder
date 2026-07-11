@@ -3,11 +3,12 @@
 
   ## Hey, I'm Rafael
 
-  **ICT Infrastructure Engineer · Developer Tools Creator · Open Source**
-
-  Workplace Engineer @ [novosys.ch](https://www.novosys.ch)  
-  I build practical tools and use AI deliberately: local-first by default, cloud only where it earns its place. Everything governed, tested and verifiable.
 </div>
+
+**ICT Infrastructure Engineer · Developer Tools Creator · Open Source**
+
+Workplace Engineer @ [novosys.ch](https://www.novosys.ch)  
+I build practical tools and use AI deliberately: local-first by default, cloud only where it earns its place. Everything governed, tested and verifiable.
 
 ![Rust](https://img.shields.io/badge/Rust-CE422B?logo=rust&logoColor=white) ![C#](https://img.shields.io/badge/C%23-239120?logo=dotnet&logoColor=white) ![Swift](https://img.shields.io/badge/Swift-F05138?logo=swift&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) ![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?logo=powershell&logoColor=white) ![Microsoft 365](https://img.shields.io/badge/Microsoft-M365-0078d4?logo=microsoft&logoColor=white) ![Azure](https://img.shields.io/badge/Microsoft-Azure-0078d4?logo=microsoftazure&logoColor=white) ![Entra ID](https://img.shields.io/badge/Microsoft-Entra_ID-0078d4?logo=microsoftazure&logoColor=white) ![Apple Silicon](https://img.shields.io/badge/Apple-Silicon-000000?logo=apple&logoColor=white) ![AI | Claude Code](https://img.shields.io/badge/AI-Claude_Code-black?logo=anthropic&logoColor=white) ![AI | Copilot](https://img.shields.io/badge/AI-Copilot-black?logo=github&logoColor=white) ![AI | Ollama](https://img.shields.io/badge/AI-Ollama-black?logo=ollama&logoColor=white)
 
