@@ -35,6 +35,10 @@ Fully offline AI life planner: events, tasks and deadlines, extracted from plain
 - AI-assisted development (Claude Code, Copilot) is governed by those standards, not the other way around.
 - Releases are verified before publishing: builds, test suites and functional smoke tests documented in the release notes.
 
+**Versioning.** Every repo follows [Semantic Versioning](https://semver.org) (`MAJOR.MINOR.PATCH`), with one house rule stricter than the spec: `MAJOR`/`v1.0.0` is reserved for a genuinely finished, installable or runnable product (a real installer, packaged app, or Docker image), not just "feature-complete in the source." A CLI-only tool stays below `v1.0.0` regardless of how complete it is. `PATCH` covers fixes and docs, `MINOR` covers new features. Full rule in [engineering-standards](https://github.com/9t29zhmwdh-coder/engineering-standards/blob/main/CLAUDE.md), section 3.
+
+**Change workflow.** Every change, including a docs-only fix, goes through the same sequence: branch, commit, push, pull request, CI checks, merge (squash), tag, GitHub Release with notes; no shortcuts, even for small fixes. Merge risk is handled explicitly: low-risk changes (docs, CI config, tests) are self-merged and reported afterward; anything touching business logic, security, or secrets waits for a deliberate review before merging, even on a solo-maintained repo.
+
 ---
 ## What I Work With
 
@@ -165,4 +169,4 @@ Translated from logistics mindset: **systems thinking, process optimization, han
 
 ---
 
-**All repos are open source (MIT license). Issues & PRs welcome.**
+**All software repos are open source (MIT license); [engineering-standards](https://github.com/9t29zhmwdh-coder/engineering-standards) is documentation, licensed under CC BY 4.0. Issues & PRs welcome.**
