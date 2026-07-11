@@ -5,6 +5,12 @@ Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ---
 
+## [0.2.1] - 2026-07-11
+
+### Fixed
+
+- Removed the email from Contact; the previous redesign PR was merged one commit before this removal landed. LinkedIn and the website are sufficient contact channels.
+
 ## [0.2.0] - 2026-07-11
 
 ### Changed

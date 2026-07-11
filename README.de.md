@@ -54,7 +54,6 @@ Jedes Repo folgt denselben [Engineering-Standards](https://github.com/9t29zhmwdh
 
 - **Website:** [raystudio.ch](https://raystudio.ch)
 - **LinkedIn:** [Rafael Yilmaz](https://www.linkedin.com/in/rafael-yilmaz-b38474122/)
-- **E-Mail:** [rafael.yilmaz@icloud.com](mailto:rafael.yilmaz@icloud.com)
 - **Arbeit:** [novosys.ch](https://www.novosys.ch)
 
 ---
