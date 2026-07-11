@@ -48,7 +48,7 @@ repo/
 └── .github/workflows/     CI: Lint, Test, Security-Audit, Release
 ```
 
-Jedes Repo folgt denselben [Engineering-Standards](https://github.com/9t29zhmwdh-coder/engineering-standards): reiner PR-Merge mit erzwungener Branch-Protection, [Semantic Versioning](https://semver.org) mit einer Verschärfung gegenüber der Spezifikation (`v1.0.0` ist ausschließlich einem wirklich installierbaren oder lauffähigen Produkt vorbehalten, nicht nur "feature-complete im Quellcode"), und eine risikobasierte Merge-Policy, niedriges Risiko wird selbst gemergt und gemeldet, alles mit Business-Logik- oder Security-Bezug wartet auf eine bewusste Prüfung.
+Jedes Repo folgt denselben [Engineering-Standards](https://github.com/9t29zhmwdh-coder/engineering-standards): reiner PR-Merge mit erzwungener Branch-Protection, [Semantic Versioning](https://semver.org) mit einer Verschärfung gegenüber der Spezifikation (`v1.0.0` ist ausschliesslich einem wirklich installierbaren oder lauffähigen Produkt vorbehalten, nicht nur "feature-complete im Quellcode"), und eine risikobasierte Merge-Policy, niedriges Risiko wird selbst gemergt und gemeldet, alles mit Business-Logik- oder Security-Bezug wartet auf eine bewusste Prüfung.
 
 ## Kontakt
 

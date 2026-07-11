@@ -5,6 +5,12 @@ Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ---
 
+## [0.2.3] - 2026-07-11
+
+### Fixed
+
+- Replaced an eszett (ß) in README.de.md with "ss"; the account uses Swiss German orthography. Also removed an eszett and em-dashes from TEMPLATE_NOTES.md.
+
 ## [0.2.2] - 2026-07-11
 
 ### Changed
