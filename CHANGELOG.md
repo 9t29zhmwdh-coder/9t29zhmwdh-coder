@@ -5,6 +5,12 @@ Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ---
 
+## [0.2.0] - 2026-07-11
+
+### Changed
+
+- Redesigned README.md/README.de.md from scratch: concise About, Currently Building, a curated Pinned Projects table, a compact Tech Focus list, a portfolio file-tree/structure diagram, and Contact (added LinkedIn). Removed the badge row and the exhaustive per-category project catalog in favor of a shorter, recruiter- and reviewer-scannable structure; the full project list remains one click away via the GitHub repositories tab.
+
 ## [0.1.1] - 2026-07-11
 
 ### Added
