@@ -8,7 +8,7 @@
 
 ## About
 
-ICT Infrastructure Engineer at [novosys.ch](https://www.novosys.ch), building local-first developer tools in Rust, Swift, and Python. I use AI deliberately: local models by default, cloud only where it earns its place, every repo governed by the same published engineering standards.
+ICT Infrastructure Engineer at [novosys.ch](https://www.novosys.ch), building local-first developer tools in Rust, Swift, and Python. I run a hands-on AI practice: benchmarking local models against Claude and Copilot to find where a lightweight model is reliable enough for everyday tasks like explaining logs, bugs, and mail, and where cloud capability earns its place. Every repo in this portfolio follows the same published engineering standards.
 
 ## Currently Building
 
