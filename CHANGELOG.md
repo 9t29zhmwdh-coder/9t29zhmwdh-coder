@@ -5,6 +5,12 @@ Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ---
 
+## [0.2.2] - 2026-07-11
+
+### Changed
+
+- Rewrote the About paragraph: "local models by default, cloud only where it earns its place" overstated personal daily AI usage (Copilot is a daily driver, Claude a regular secondary for writing) even though it accurately describes the tools built. Replaced with an honest description of the actual practice: benchmarking local models against Claude and Copilot for everyday tasks.
+
 ## [0.2.1] - 2026-07-11
 
 ### Fixed

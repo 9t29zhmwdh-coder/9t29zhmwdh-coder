@@ -8,7 +8,7 @@
 
 ## Über mich
 
-ICT Infrastructure Engineer bei [novosys.ch](https://www.novosys.ch), ich baue local-first Developer-Tools in Rust, Swift und Python. Ich setze KI bewusst ein: lokale Modelle als Standard, Cloud nur da, wo sie es wirklich wert ist, jedes Repo folgt denselben publizierten Engineering-Standards.
+ICT Infrastructure Engineer bei [novosys.ch](https://www.novosys.ch), ich baue local-first Developer-Tools in Rust, Swift und Python. Ich betreibe eine praxisnahe KI-Testpraxis: lokale Modelle gegen Claude und Copilot benchmarken, um herauszufinden, wo ein leichtes Modell für Alltagsaufgaben wie das Erklären von Logs, Bugs und Mails zuverlässig genug ist, und wo Cloud-Fähigkeit den Aufwand wert ist. Jedes Repo in diesem Portfolio folgt denselben publizierten Engineering-Standards.
 
 ## Woran ich gerade arbeite
 
