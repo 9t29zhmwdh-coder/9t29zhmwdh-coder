@@ -41,8 +41,8 @@ Alle Repositories: [vollständige Liste](https://github.com/9t29zhmwdh-coder?tab
 
 Jedes aktive Repository läuft mit GitHub-CodeQL-Statik-Analyse, Dependabot-Schwachstellen-Alerts, und Schwachstellen-Meldungen laufen ausschliesslich über GitHub Security Advisories, nie über öffentliche Issues (Details in [engineering-standards](https://github.com/9t29zhmwdh-coder/engineering-standards/blob/main/standards/ci-cd.md), "Automated Security Signals"). Beispiel, live auf zwei Pinned-Repos:
 
-[![CodeQL](https://github.com/9t29zhmwdh-coder/entra-access-graph-engine/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/9t29zhmwdh-coder/entra-access-graph-engine/security/code-scanning)
-[![CodeQL](https://github.com/9t29zhmwdh-coder/CleanFlow/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/9t29zhmwdh-coder/CleanFlow/security/code-scanning)
+**entra-access-graph-engine:** [![CodeQL](https://github.com/9t29zhmwdh-coder/entra-access-graph-engine/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/9t29zhmwdh-coder/entra-access-graph-engine/security/code-scanning)
+**CleanFlow:** [![CodeQL](https://github.com/9t29zhmwdh-coder/CleanFlow/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/9t29zhmwdh-coder/CleanFlow/security/code-scanning)
 
 ## Wie dieses Portfolio funktioniert
 
