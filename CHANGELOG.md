@@ -5,6 +5,12 @@ Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ---
 
+## [0.2.4] - 2026-07-12
+
+### Added
+
+- New "Security Posture" section (README.md, README.de.md), with live CodeQL badges from two pinned repos (entra-access-graph-engine, CleanFlow), linking to engineering-standards' Automated Security Signals documentation.
+
 ## [0.2.3] - 2026-07-11
 
 ### Fixed
