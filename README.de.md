@@ -37,6 +37,13 @@ Alle Repositories: [vollständige Liste](https://github.com/9t29zhmwdh-coder?tab
 - **KI:** Lokale Inferenz (Ollama, llama.cpp), Claude Code, GitHub Copilot
 - **Praktiken:** Semantic Versioning, erzwungene Branch-Protection, Security-First-CI/CD
 
+## Security-Posture
+
+Jedes aktive Repository läuft mit GitHub-CodeQL-Statik-Analyse, Dependabot-Schwachstellen-Alerts, und Schwachstellen-Meldungen laufen ausschliesslich über GitHub Security Advisories, nie über öffentliche Issues (Details in [engineering-standards](https://github.com/9t29zhmwdh-coder/engineering-standards/blob/main/standards/ci-cd.md), "Automated Security Signals"). Beispiel, live auf zwei Pinned-Repos:
+
+[![CodeQL](https://github.com/9t29zhmwdh-coder/entra-access-graph-engine/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/9t29zhmwdh-coder/entra-access-graph-engine/security/code-scanning)
+[![CodeQL](https://github.com/9t29zhmwdh-coder/CleanFlow/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/9t29zhmwdh-coder/CleanFlow/security/code-scanning)
+
 ## Wie dieses Portfolio funktioniert
 
 ```
