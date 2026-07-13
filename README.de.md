@@ -39,7 +39,7 @@ Alle Repositories: [vollständige Liste](https://github.com/9t29zhmwdh-coder?tab
 
 ## Security-Posture
 
-Jedes aktive Repository läuft mit GitHub-CodeQL-Statik-Analyse, Dependabot-Schwachstellen-Alerts, und Schwachstellen-Meldungen laufen ausschliesslich über GitHub Security Advisories, nie über öffentliche Issues (Details in [engineering-standards](https://github.com/9t29zhmwdh-coder/engineering-standards/blob/main/standards/ci-cd.md), "Automated Security Signals"). Beispiel, live auf zwei Pinned-Repos:
+Kein Zertifikat, sondern was tatsächlich bei jedem aktiven Repository läuft: GitHub scannt den Code bei jedem Push automatisch auf bekannte Schwachstellen-Muster (CodeQL) und meldet veraltete oder riskante Abhängigkeiten (Dependabot). Wer eine Sicherheitslücke findet, meldet sie vertraulich über GitHub, nie als öffentliches Issue (Details in [engineering-standards](https://github.com/9t29zhmwdh-coder/engineering-standards/blob/main/standards/ci-cd.md), "Automated Security Signals"). Live zu sehen auf zwei Pinned-Repos:
 
 **entra-access-graph-engine:** [![CodeQL](https://github.com/9t29zhmwdh-coder/entra-access-graph-engine/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/9t29zhmwdh-coder/entra-access-graph-engine/security/code-scanning)
 **CleanFlow:** [![CodeQL](https://github.com/9t29zhmwdh-coder/CleanFlow/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/9t29zhmwdh-coder/CleanFlow/security/code-scanning)

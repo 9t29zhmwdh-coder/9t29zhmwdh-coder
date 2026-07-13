@@ -39,7 +39,7 @@ See [all repositories](https://github.com/9t29zhmwdh-coder?tab=repositories) for
 
 ## Security Posture
 
-Every active repository runs GitHub CodeQL static analysis, Dependabot vulnerability alerts, and accepts vulnerability reports exclusively via GitHub Security Advisories, never public issues (details in [engineering-standards](https://github.com/9t29zhmwdh-coder/engineering-standards/blob/main/standards/ci-cd.md), "Automated Security Signals"). Example, live on two pinned repos:
+Not a certification, just what actually runs on every active repository: GitHub scans the code for known vulnerability patterns on every push (CodeQL) and flags outdated or risky dependencies automatically (Dependabot). Anyone who finds a security issue reports it privately through GitHub, not as a public issue (details in [engineering-standards](https://github.com/9t29zhmwdh-coder/engineering-standards/blob/main/standards/ci-cd.md), "Automated Security Signals"). See it live on two pinned repos:
 
 **entra-access-graph-engine:** [![CodeQL](https://github.com/9t29zhmwdh-coder/entra-access-graph-engine/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/9t29zhmwdh-coder/entra-access-graph-engine/security/code-scanning)
 **CleanFlow:** [![CodeQL](https://github.com/9t29zhmwdh-coder/CleanFlow/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/9t29zhmwdh-coder/CleanFlow/security/code-scanning)
