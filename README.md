@@ -4,7 +4,7 @@
   # Rafael Yilmaz
 </div>
 
-🇩🇪 [Deutsche Version](README.de.md)
+[🇩🇪 Deutsche Version](README.de.md)
 
 ## About
 
