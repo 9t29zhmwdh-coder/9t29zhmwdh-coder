@@ -16,6 +16,7 @@ ICT Infrastructure Engineer at [novosys.ch](https://www.novosys.ch), building lo
 - **[MailPilot](https://github.com/9t29zhmwdh-coder/MailPilot)**: local AI email organizer for macOS, on-device classification, nothing leaves the machine.
 - **[LifePlanner](https://github.com/9t29zhmwdh-coder/LifePlanner)**: fully offline AI life planner, events and tasks extracted from plain text.
 - **[BugRadar](https://github.com/9t29zhmwdh-coder/BugRadar)**: live log and metric watcher, groups anomalies into incidents with AI root-cause analysis.
+- **[AdapterForge](https://github.com/9t29zhmwdh-coder/AdapterForge)**: local QLoRA adapter training pipeline for Ollama models on Apple Silicon, from dataset prep through GGUF export to Ollama deploy in one CLI.
 
 ## Pinned Projects
 
