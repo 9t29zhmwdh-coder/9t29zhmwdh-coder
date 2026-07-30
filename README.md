@@ -57,6 +57,64 @@ repo/
 └── .github/workflows/     CI: lint, test, security audit, release
 ```
 
+### From empty repo to published release
+
+```
+  engineering-standards ──────── one source for every rule below
+            │
+            ▼
+  ┌───────────────────┐
+  │  1. repo created  │  ruleset solo-main-protection applied on day one:
+  └─────────┬─────────┘  no direct push, no force push, PR required
+            │
+            ▼
+  ┌───────────────────┐
+  │  2. feature work  │  main is closed. every change arrives as a PR,
+  └─────────┬─────────┘  including a one-line typo fix
+            │
+            ▼
+  ┌───────────────────┐         ┌──────────────────────────────────┐
+  │  3. pull request  │────────▶│  Check      build, lint, tests   │
+  └───────────────────┘         │             Linux/macOS/Windows  │
+                                │             where the app ships  │
+                                │  CodeQL     security-extended,   │
+                                │             every PR, not just   │
+                                │             the ones touching    │
+                                │             that language        │
+                                │  Coverage                        │
+                                │  Security audit  known CVEs in   │
+                                │                  dependencies    │
+                                └────────────────┬─────────────────┘
+                                                 │
+            ┌────────────────────────────────────┘
+            ▼
+       one red? ──────▶  GitHub refuses the merge. not a habit,
+            │            a branch rule nobody can talk their way past
+            ▼
+  ┌───────────────────┐  same PR carries the version bump and the
+  │  4. merge         │  CHANGELOG entry. a change without them is
+  └─────────┬─────────┘  an unfinished change
+            │
+            ▼
+  ┌───────────────────┐
+  │  5. tag pushed    │──────▶  release workflow builds the artifacts
+  └─────────┬─────────┘         and publishes them with the changelog
+            │                   section as release notes
+            ▼
+  ┌───────────────────┐
+  │  6. published     │
+  └───────────────────┘
+
+  running alongside, on their own schedule:
+
+  Dependabot ──▶ weekly. minor and patch arrive grouped, majors on
+                 their own, because a breaking change hidden inside
+                 "12 updates" gets waved through
+  Scorecard  ──▶ on every push to main and weekly. scores supply-chain
+                 hygiene: pinned actions, token permissions, signed
+                 releases
+```
+
 Every repo follows the same [engineering standards](https://github.com/9t29zhmwdh-coder/engineering-standards): PR-only merges with enforced branch protection, [Semantic Versioning](https://semver.org) with one house rule stricter than the spec (`v1.0.0` is reserved for a genuinely installable or runnable product, not just "feature-complete in the source"), and a risk-based merge policy, low-risk changes are self-merged and reported, anything touching business logic or security waits for a deliberate review.
 
 ## Contact
