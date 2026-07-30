@@ -13,7 +13,7 @@ ICT Infrastructure Engineer bei [novosys.ch](https://www.novosys.ch), ich baue l
 ## Woran ich gerade arbeite
 
 - **[NetSweep](https://github.com/9t29zhmwdh-coder/NetSweep)**: Netzlaufwerk-Audit und -Cleanup für NAS, SharePoint und DFS, mit signiertem Windows-Installer.
-- **[MailPilot](https://github.com/9t29zhmwdh-coder/MailPilot)**: lokaler KI-E-Mail-Organizer für macOS, On-Device-Klassifikation, nichts verlässt das Gerät.
+- **[MailLoom](https://github.com/9t29zhmwdh-coder/MailLoom)**: lokaler KI-E-Mail-Organizer für macOS, On-Device-Klassifikation, nichts verlässt das Gerät.
 - **[LifePlanner](https://github.com/9t29zhmwdh-coder/LifePlanner)**: vollständig offline KI-Lebensplaner, Termine und Aufgaben aus reinem Text extrahiert.
 - **[BugRadar](https://github.com/9t29zhmwdh-coder/BugRadar)**: Live-Log-/Metrik-Beobachtung, gruppiert Anomalien zu Incidents mit KI-Root-Cause-Analyse.
 - **[AdapterForge](https://github.com/9t29zhmwdh-coder/AdapterForge)**: lokale QLoRA-Adapter-Trainings-Pipeline für Ollama-Modelle auf Apple Silicon, von der Datensatz-Vorbereitung über GGUF-Export bis zum Ollama-Deploy in einem CLI.
@@ -23,9 +23,9 @@ ICT Infrastructure Engineer bei [novosys.ch](https://www.novosys.ch), ich baue l
 | Projekt | Was es macht |
 |---|---|
 | **[private-model-orchestrator](https://github.com/9t29zhmwdh-coder/private-model-orchestrator)** | Verteilt und verwaltet On-Device Core-ML-Modelle über Apple-Geräteflotten |
-| **[NetScanX](https://github.com/9t29zhmwdh-coder/NetScanX)** | Cross-Platform Netzwerk-Discovery- und Diagnose-CLI, Asset-Inventar, Drift-Detection |
+| **[NetFathom](https://github.com/9t29zhmwdh-coder/NetFathom)** | Cross-Platform Netzwerk-Discovery- und Diagnose-CLI, Asset-Inventar, Drift-Detection |
 | **[entra-access-graph-engine](https://github.com/9t29zhmwdh-coder/entra-access-graph-engine)** | Mappt Entra-ID-Privilegien-Graphen, erkennt Eskalationspfade und versteckte Admin-Ketten |
-| **[SwiftAgent](https://github.com/9t29zhmwdh-coder/SwiftAgent)** | Abhängigkeitsfreies Swift-Framework für lokale LLM-Agenten |
+| **[EmissaryKit](https://github.com/9t29zhmwdh-coder/EmissaryKit)** | Abhängigkeitsfreies Swift-Framework für lokale LLM-Agenten |
 | **[CleanFlow](https://github.com/9t29zhmwdh-coder/CleanFlow)** | KI-gestützter Datei-Organizer mit regelbasierter Cleanup-Automatisierung |
 | **[engineering-standards](https://github.com/9t29zhmwdh-coder/engineering-standards)** | Die Security-First-Standards, die jedes Repo in diesem Portfolio regeln |
 
