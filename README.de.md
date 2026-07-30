@@ -57,6 +57,64 @@ repo/
 └── .github/workflows/     CI: Lint, Test, Security-Audit, Release
 ```
 
+### Vom leeren Repo zum veröffentlichten Release
+
+```
+  engineering-standards ──────── eine Quelle für jede Regel darunter
+            │
+            ▼
+  ┌────────────────────┐
+  │  1. Repo erstellt  │  Ruleset solo-main-protection ab Tag eins:
+  └─────────┬──────────┘  kein Direct-Push, kein Force-Push, PR-Pflicht
+            │
+            ▼
+  ┌────────────────────┐
+  │  2. Feature-Arbeit │  main ist zu. jede Änderung kommt als PR,
+  └─────────┬──────────┘  auch ein einzeiliger Tippfehler
+            │
+            ▼
+  ┌────────────────────┐        ┌──────────────────────────────────┐
+  │  3. Pull Request   │───────▶│  Check      Build, Lint, Tests   │
+  └────────────────────┘        │             Linux/macOS/Windows  │
+                                │             wo die App liefert   │
+                                │  CodeQL     security-extended,   │
+                                │             auf jedem PR, nicht  │
+                                │             nur bei PRs, die die │
+                                │             Sprache anfassen     │
+                                │  Coverage                        │
+                                │  Security audit  bekannte CVEs   │
+                                │                  in Dependencies │
+                                └────────────────┬─────────────────┘
+                                                 │
+            ┌────────────────────────────────────┘
+            ▼
+       einer rot? ─────▶  GitHub verweigert den Merge. keine
+            │             Gewohnheit, eine Branch-Regel
+            ▼
+  ┌────────────────────┐  derselbe PR trägt Versionsanhebung und
+  │  4. Merge          │  CHANGELOG-Eintrag. eine Änderung ohne
+  └─────────┬──────────┘  beides ist eine unfertige Änderung
+            │
+            ▼
+  ┌────────────────────┐
+  │  5. Tag gepusht    │─────▶  Release-Workflow baut die Artefakte
+  └─────────┬──────────┘        und veröffentlicht sie mit dem
+            │                   CHANGELOG-Abschnitt als Release-Notes
+            ▼
+  ┌────────────────────┐
+  │  6. veröffentlicht │
+  └────────────────────┘
+
+  läuft nebenher, nach eigenem Takt:
+
+  Dependabot ──▶ wöchentlich. Minor und Patch gebündelt, Majors
+                 einzeln, weil ein Breaking Change versteckt in
+                 "12 updates" durchgewinkt wird
+  Scorecard  ──▶ bei jedem Push auf main und wöchentlich. bewertet
+                 Supply-Chain-Hygiene: gepinnte Actions, Token-
+                 Berechtigungen, signierte Releases
+```
+
 Jedes Repo folgt denselben [Engineering-Standards](https://github.com/9t29zhmwdh-coder/engineering-standards): reiner PR-Merge mit erzwungener Branch-Protection, [Semantic Versioning](https://semver.org) mit einer Verschärfung gegenüber der Spezifikation (`v1.0.0` ist ausschliesslich einem wirklich installierbaren oder lauffähigen Produkt vorbehalten, nicht nur "feature-complete im Quellcode"), und eine risikobasierte Merge-Policy, niedriges Risiko wird selbst gemergt und gemeldet, alles mit Business-Logik- oder Security-Bezug wartet auf eine bewusste Prüfung.
 
 ## Kontakt
