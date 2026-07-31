@@ -5,6 +5,18 @@ Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ---
 
+## [0.2.5] - 2026-07-31
+
+### Fixed
+
+- Three tool descriptions contradicted the repositories they link to. NetSweep was said to ship a signed Windows installer; its own README says the installer is unsigned and SmartScreen warns on first run. MailLoom was said to keep everything on-device; that is the default since its 1.4.0, but Claude is a supported choice that transmits sender, subject and the first 800 characters, so naming only the default read as a guarantee the software does not make. CleanFlow was called an AI-powered file organizer; it is the rule-based one, and LifeSort is the one that runs a vision model.
+
+### Note
+
+- Ten changes were merged between 0.2.4 and this entry without a version of their own, including the repository lifecycle diagram and the three tool renames. They are in the git history but not in this file. Rather than reconstructing ten entries after the fact, the gap is recorded here.
+
+---
+
 ## [0.2.4] - 2026-07-12
 
 ### Added
