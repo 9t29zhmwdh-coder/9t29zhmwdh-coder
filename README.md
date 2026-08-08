@@ -17,6 +17,7 @@ ICT Infrastructure Engineer at [novosys.ch](https://www.novosys.ch), building lo
 - **[LifePlanner](https://github.com/9t29zhmwdh-coder/LifePlanner)**: fully offline AI life planner, events and tasks extracted from plain text.
 - **[BugRadar](https://github.com/9t29zhmwdh-coder/BugRadar)**: live log and metric watcher, groups anomalies into incidents with AI root-cause analysis.
 - **[AdapterForge](https://github.com/9t29zhmwdh-coder/AdapterForge)**: local QLoRA adapter training pipeline for Ollama models on Apple Silicon, from dataset prep through GGUF export to Ollama deploy in one CLI.
+- **[CrowdGauge](https://github.com/9t29zhmwdh-coder/CrowdGauge)**: how busy a place is, hour by hour, from swappable footfall providers; neither Google nor Apple exposes this through an official API, so the sources are adapters.
 
 ## Pinned Projects
 
