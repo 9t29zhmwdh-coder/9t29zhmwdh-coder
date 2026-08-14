@@ -18,6 +18,7 @@ ICT Infrastructure Engineer bei [novosys.ch](https://www.novosys.ch), ich baue l
 - **[BugRadar](https://github.com/9t29zhmwdh-coder/BugRadar)**: Live-Log-/Metrik-Beobachtung, gruppiert Anomalien zu Incidents mit KI-Root-Cause-Analyse.
 - **[AdapterForge](https://github.com/9t29zhmwdh-coder/AdapterForge)**: lokale QLoRA-Adapter-Trainings-Pipeline für Ollama-Modelle auf Apple Silicon, von der Datensatz-Vorbereitung über GGUF-Export bis zum Ollama-Deploy in einem CLI.
 - **[CrowdGauge](https://github.com/9t29zhmwdh-coder/CrowdGauge)**: wie voll ein Ort ist, Stunde für Stunde, aus austauschbaren Frequenzdaten-Quellen; weder Google noch Apple gibt das über eine offizielle API heraus, deshalb sind die Quellen Adapter.
+- **[HiveMind Chat](https://github.com/9t29zhmwdh-coder/HiveMind_Chat)**: mehrere Modelle in einem Chatraum, die reihum antworten, gegensätzliche Positionen beziehen oder abstimmen; lokale und gehostete Modelle nebeneinander, Zugangsdaten nur per Umgebungsvariable referenziert und nie gespeichert.
 
 ## Pinned Projects
 
