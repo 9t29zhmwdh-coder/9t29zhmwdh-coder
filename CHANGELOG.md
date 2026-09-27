@@ -5,6 +5,17 @@ Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ---
 
+## [0.2.6] - 2026-09-27
+
+### Changed
+
+Dependency and CI updates merged since v0.2.5, each with green checks:
+
+- docs(profile): list HiveMind Chat under currently building (#27)
+- docs(profile): list CrowdGauge under currently building (#26)
+
+---
+
 ## [0.2.5] - 2026-07-31
 
 ### Fixed
