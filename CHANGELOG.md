@@ -5,6 +5,14 @@ Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ---
 
+## [0.2.8] - 2026-10-28
+
+### Changed
+
+- The About section now names what I do under RayStudio (Microsoft 365, Home Assistant and UniFi networks from Switzerland) and links to raystudio.ch, in both the English and the German README. The GitHub bio and website field say the same.
+
+---
+
 ## [0.2.7] - 2026-10-11
 
 ### Fixed

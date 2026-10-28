@@ -8,6 +8,8 @@
 
 ## About
 
+Under [RayStudio](https://raystudio.ch) I set up Microsoft 365, Home Assistant and UniFi networks from Switzerland.
+
 ICT Infrastructure Engineer at [novosys.ch](https://www.novosys.ch), building local-first developer tools in Rust, Swift, and Python. I run a hands-on AI practice: benchmarking local models against Claude and Copilot to find where a lightweight model is reliable enough for everyday tasks like explaining logs, bugs, and mail, and where cloud capability earns its place. Every repo in this portfolio follows the same published engineering standards.
 
 ## Currently Building
