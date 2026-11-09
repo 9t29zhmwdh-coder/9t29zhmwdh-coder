@@ -21,7 +21,6 @@ ICT Infrastructure Engineer at [novosys.ch](https://www.novosys.ch), building lo
 - **[AdapterForge](https://github.com/9t29zhmwdh-coder/AdapterForge)**: local QLoRA adapter training pipeline for Ollama models on Apple Silicon, from dataset prep through GGUF export to Ollama deploy in one CLI.
 - **[CrowdGauge](https://github.com/9t29zhmwdh-coder/CrowdGauge)**: how busy a place is, hour by hour, from swappable footfall providers; neither Google nor Apple exposes this through an official API, so the sources are adapters.
 - **[HiveMind Chat](https://github.com/9t29zhmwdh-coder/HiveMind_Chat)**: several models in one chat room, answering in turn, taking opposing stances or voting; local and hosted models side by side, with credentials referenced by environment variable and never stored.
-- **[dumb-lg](https://github.com/9t29zhmwdh-coder/dumb-lg)**: guides for turning a smart LG webOS TV into a plain, high quality HDMI display, with Dolby Atmos over eARC, privacy settings and network isolation.
 
 ## Pinned Projects
 
